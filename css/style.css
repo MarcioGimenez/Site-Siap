@@ -8,11 +8,35 @@
 }
 #index-banner{
   background-image: url('../background1.jpg');
-  height: 1859px;
+ 
 }
 .menu-topo{
     padding-top: 30px;
     line-height: 35px;
+}
+.txt-header{
+  width: 500px;
+  float: right;
+  height: 300px;
+  padding-top: 100px;
+  margin-left: 25%;
+  color: #000;
+ 
+}
+.txt-header h1{
+  color: #0d512b;
+}
+.txt-sobre{
+  width: 600px;
+  float: right;
+  height: 300px;
+  padding-top: 650px;
+  margin-left: 20%;
+  color: #fff;
+}
+#sobre-fazenda{
+  padding-top: 1780px;
+  color: #fff;
 }
 nav ul a,
 nav .brand-logo {
