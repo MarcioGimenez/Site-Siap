@@ -18,9 +18,36 @@ body{
     background-image: url('../img/backgroundContato.jpg');
     height: 570px;
 }
+#quem-somos-banner{
+    background-image: url('../img/backgroundQuemSomos.jpg');
+    height: 565px;
+}
+#sobre-banner{
+    background-image: url('../img/backgroundSobre.jpg');
+    height: 575px;
+}
 #contato-msg h2{
     font-size: 24px !important;
     font-weight: bold !important;
+}
+#quemsomos-infos p{
+    line-height: 16px;
+    font-size: 13px;
+    color: #626262;
+    text-align: left;
+}
+#quemsomos-infos h2{
+    font-size: 24px !important;
+    font-weight: bold !important;
+    text-align: left;
+    margin: 0px !important;
+    line-height: 10px;
+}
+#quemsomos-infos h3{
+    font-size: 18px !important;
+    font-weight: normal;
+    text-align: left;
+    color: #2E8D56 !important;
 }
 .lang{
     margin-top: -15px;
@@ -37,11 +64,11 @@ body{
     margin-right: 5px;
 }
 .verde-siap-escuro {
-  background-color: #0B4F28 !important;
+    background-color: #0B4F28 !important;
 }
 
 .verde-siap-escuro-text {
-  color: #0B4F28 !important;
+    color: #0B4F28 !important;
 }
 .menu-topo{
     padding-top: 30px;
@@ -71,6 +98,10 @@ body{
     padding-top: 1780px;
     color: #fff;
 }
+.sobre-nav{
+    color: #FFF !important;
+}
+
 nav ul a,
 nav .brand-logo {
     color: #0d512b;
@@ -81,8 +112,8 @@ nav ul li{
 
 }
 nav ul a:hover {
-    background-color: transparent;
-    color: #20a65d;
+    background-color: transparent !important;
+    color: #2E8D56;
 }
 p {
     line-height: 2rem;
@@ -118,7 +149,7 @@ footer.page-footer {
 
 .arrow_box {
     position: relative;
-    background: #fff;
+    background: transparent;
     /*border: 1px solid #0d512b;*/
 }
 .arrow_box:after, .arrow_box:before {
