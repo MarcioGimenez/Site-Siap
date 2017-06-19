@@ -11,20 +11,26 @@ body{
 }
 #index-banner{
     background-image: url('../img/background1.jpg');
-
-
+    background-repeat:no-repeat;
+    background-size:100%;
 }
 #contato-banner{
     background-image: url('../img/backgroundContato.jpg');
     height: 570px;
+    background-repeat:no-repeat;
+    background-size:100%;
 }
 #quem-somos-banner{
     background-image: url('../img/backgroundQuemSomos.jpg');
     height: 565px;
+    background-repeat:no-repeat;
+    background-size:100%;
 }
 #sobre-banner{
     background-image: url('../img/backgroundSobre.jpg');
     height: 575px;
+    background-repeat:no-repeat;
+    background-size:100%;
 }
 #contato-msg h2{
     font-size: 24px !important;
@@ -98,9 +104,7 @@ body{
     padding-top: 1780px;
     color: #fff;
 }
-.sobre-nav{
-    color: #FFF !important;
-}
+
 
 nav ul a,
 nav .brand-logo {
