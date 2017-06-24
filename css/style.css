@@ -80,11 +80,15 @@ body{
     padding-top: 30px;
     line-height: 35px;
 }
+.menu-mapas{
+    padding-top: 30px;
+    line-height: 35px;
+}
 .txt-header{
     width: 500px;
     float: right;
     height: 300px;
-    padding-top: 100px;
+    //padding-top: 100px;
     margin-left: 25%;
     color: #000;
 
@@ -96,12 +100,12 @@ body{
     width: 600px;
     float: right;
     height: 300px;
-    padding-top: 650px;
-    margin-left: 20%;
+    padding-top: 30%;
+    //margin-left: 20%;
     color: #fff;
 }
 #sobre-fazenda{
-    padding-top: 1780px;
+    padding-top: 83%;
     color: #fff;
 }
 
@@ -181,4 +185,71 @@ footer.page-footer {
 }
 .by-txt{
     color: #0d512b;
+}
+#foto-fazenda-home{
+    width: 100%;   
+    height: 100%;
+}
+#icones-fazenda{
+    background-image: url('../img/sobre-fazenda-home.png');
+    background-repeat:no-repeat;
+    background-size:100%;
+    //height: 499px;
+}
+.centralizar-filho{
+    display: flex;
+    justify-content: center;
+}
+#home-mapas{
+    background-color: #E3F3EA;
+}
+#home-mapas nav ul li a{
+    font-size: 22px;
+    font-weight: 300;
+}
+
+#mapa-solo-descricao{
+    margin-top: -50px;
+}
+#mapa-solo-descricao p{
+    margin: 0px;
+    line-height: 18px;
+    color: #626262;
+}
+#mapa-solo-descricao p b{
+    line-height: 40px;
+}
+#texturas-solo p{
+    line-height: 12px;
+    font-size: 12px;
+    margin: 0px;
+    color: #626262;
+    font-weight: 500;
+}
+#home-mapas h3{
+    font-size: 22px;
+    font-weight: 300;
+    color: #0B4F28;
+
+}
+.div-mapas{
+    display: none;
+}
+#mapa-solo{
+    display: block;
+}
+.fotos-zoom img{
+    cursor: -moz-zoom-in; 
+    cursor: -webkit-zoom-in; 
+    cursor: zoom-in;
+}
+#texturas-solo img{
+    cursor: pointer;
+}
+.div-mapas-texturas{
+    padding-top: 20px !important;
+    display: none;
+}
+#mapa-solo-default{
+    display: block;
 }
