@@ -71,7 +71,63 @@
         </div>
 
         <div id="home-mapas">
-            <div class="container center-align">
+            <div id="light-box-container" class="light-box-solo box-container">
+                <div class="container center-align">
+                    <div class="fechar-box row">
+                        <img src="img/fechar-light-box.png" class="right"/>
+                    </div>
+
+                    <div id="mapa-solo-box" class="row div-mapas">
+                        <div id="texturas-solo">
+                            <div id="textura-azul" class="col s3 center-align">
+                                <img src="img/azul.png" class="show-img-textura-box" rel="azul"/>
+                                <p>Textura acima de 30% <br>5,748.3 ha </p>
+                            </div>
+                            <div id="textura-laranja" class="col s3">
+                                <img src="img/laranja.png" class="show-img-textura-box" rel="laranja"/>
+                                <p>Textura entre 20 e 30% <br>1,813.8 ha </p>
+                            </div>
+                            <div id="textura-amarelo" class="col s3">
+                                <img src="img/amarelo.png" class="show-img-textura-box" rel="amarelo"/>
+                                <p>Textura entre 15 e 20% <br>4,896.6 ha </p>
+                            </div>
+                            <div id="textura-vermelho" class="col s3">
+                                <img src="img/vermelho.png" class="show-img-textura-box" rel="vermelho"/>
+                                <p>Textura abaixo de 15% <br>6,339.9 ha </p>
+                            </div>
+                        </div>
+
+                        <div id="mapa-solo-default-box" class="col m11 offset-m1 right-align div-mapas-texturas-box">
+                            <img src="img/mapa-solo.png" class="responsive-img"/>
+                        </div>
+
+                        <div id="mapa-solo-azul-box" class="col m11 offset-m1 right-align div-mapas-texturas-box">
+                            <img src="img/mapa-azul-solo.png" class="responsive-img"/>
+                        </div>
+                        <div id="mapa-solo-laranja-box" class="col m11 offset-m1 right-align div-mapas-texturas-box">
+                            <img src="img/mapa-laranja-solo.png" class="responsive-img"/>
+                        </div>
+                        <div id="mapa-solo-amarelo-box" class="col m11 offset-m1 right-align div-mapas-texturas-box">
+                            <img src="img/mapa-amarelo-solo.png" class="responsive-img"/>
+                        </div>  
+                        <div id="mapa-solo-vermelho-box" class="col m11 offset-m1 right-align div-mapas-texturas-box">
+                            <img src="img/mapa-vermelho-solo.png" class="responsive-img"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="light-box-container" class="light-box-hidro box-container">
+                <div class="container center-align">
+                    <div class="row fechar-box">
+                        <img src="img/fechar-light-box.png" class="right"/>
+                    </div>
+                    <div id="mapa-hidro-default-box" class="col s8">
+                        <img id="zoom-hidro-img" src="img/mapa-hidrografico-pequeno.png" class="responsive-img" data-zoom-image="img/mapa-hidrogafico-grande.png"/>
+                    </div>
+                </div>
+            </div>
+            <div class="container center-align container-default">
                 <nav class="transparent menu-mapas " role="navigation">
                     <div class="nav-wrapper container centralizar-filho">
                         <ul>
@@ -105,20 +161,20 @@
                         </div>
                     </div>
 
-                    <div id="mapa-solo-default" class="col m11 offset-m1 right-align fotos-zoom div-mapas-texturas">
+                    <div id="mapa-solo-default" class="col m11 offset-m1 right-align fotos-zoom zoom-solo div-mapas-texturas">
                         <img src="img/mapa-solo.png" class="responsive-img"/>
                     </div>
 
-                    <div id="mapa-solo-azul" class="col m11 offset-m1 right-align fotos-zoom div-mapas-texturas">
+                    <div id="mapa-solo-azul" class="col m11 offset-m1 right-align fotos-zoom zoom-solo div-mapas-texturas">
                         <img src="img/mapa-azul-solo.png" class="responsive-img"/>
                     </div>
-                    <div id="mapa-solo-laranja" class="col m11 offset-m1 right-align fotos-zoom div-mapas-texturas">
+                    <div id="mapa-solo-laranja" class="col m11 offset-m1 right-align fotos-zoom zoom-solo div-mapas-texturas">
                         <img src="img/mapa-laranja-solo.png" class="responsive-img"/>
                     </div>
-                    <div id="mapa-solo-amarelo" class="col m11 offset-m1 right-align fotos-zoom div-mapas-texturas">
+                    <div id="mapa-solo-amarelo" class="col m11 offset-m1 right-align fotos-zoom zoom-solo div-mapas-texturas">
                         <img src="img/mapa-amarelo-solo.png" class="responsive-img"/>
                     </div>  
-                    <div id="mapa-solo-vermelho" class="col m11 offset-m1 right-align fotos-zoom div-mapas-texturas">
+                    <div id="mapa-solo-vermelho" class="col m11 offset-m1 right-align fotos-zoom zoom-solo div-mapas-texturas">
                         <img src="img/mapa-vermelho-solo.png" class="responsive-img"/>
                     </div>
                     <div id="mapa-solo-descricao" class="col m4 left-align">
@@ -132,14 +188,14 @@
 
                 <div id="mapa-hidro" class="row div-mapas">
                     <p><h3>Abundância em água com os rios Papagaios, Honorato, Santa Cruz</h3></p>
-                    <div id="mapa-hidro-default" class="col m12 fotos-zoom">
+                    <div id="mapa-hidro-default" class="col m12 fotos-zoom zoom-hidro">
                         <img src="img/mapa-hidrografico-pequeno.png" class="responsive-img"/>
                     </div>
                 </div>
 
                 <div id="mapa-localizacao" class="row div-mapas">
                     <p><h3>A área está localizada no município de Brasnorte em Mato Grosso</h3></p>
-                    <div id="mapa-localizacao-default" class="col m12 fotos-zoom">
+                    <div id="mapa-localizacao-default" class="col m12">
                         <img src="img/mapa-localizacao-fazenda.png" class="responsive-img"/>
                     </div>
                 </div>
@@ -165,8 +221,11 @@
         <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script src="js/materialize.js"></script>
         <script src="js/init.js"></script>
+        <script src='js/jquery.elevatezoom.js'></script>
         <script>
+
             $(function () {
+
                 $('li').hover(function () {
                     $(this).addClass('arrow_box');
                 });
@@ -186,8 +245,30 @@
                     $('#mapa-solo-' + $(this).attr('rel')).show('slow');
                     return false;
                 });
+                $('.show-img-textura-box').click(function () {
+                    $('.div-mapas-texturas-box').hide('slow');
+                    $('#mapa-solo-' + $(this).attr('rel') + '-box').show('slow');
+                    return false;
+                });
+                $('.fechar-box').click(function () {
+                    $('.box-container').hide('slow');
+                    $('.container-default').show('slow');
+                    return false;
+                });
+                $('.zoom-solo').click(function () {
+                    $('.container-default').hide('slow');
+                    $('.light-box-solo').show('slow');
+                    $('#mapa-solo-box').show();
+                    return false;
+                });
+                $('.zoom-hidro').click(function () {
+                    $('.container-default').hide('slow');
+                    $('.light-box-hidro').show('slow');
+                    return false;
+                });
 
             });
+            $('#zoom-hidro-img').elevateZoom({ zoomType	: "lens", lensShape : "round", lensSize : 400 });
         </script>
 
     </body>

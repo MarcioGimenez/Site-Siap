@@ -238,6 +238,9 @@ footer.page-footer {
 #mapa-solo{
     display: block;
 }
+#mapa-solo-box{
+    display: block;
+}
 .fotos-zoom img{
     cursor: -moz-zoom-in; 
     cursor: -webkit-zoom-in; 
@@ -252,4 +255,12 @@ footer.page-footer {
 }
 #mapa-solo-default{
     display: block;
+}
+#light-box-container{
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+}
+.fechar-box{
+    padding-top: 20px;
+    cursor: pointer;
 }
