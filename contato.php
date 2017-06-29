@@ -10,7 +10,16 @@
         <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     </head>
+
     <body>
+        <?php
+        if ($_GET['msg'] == 'ok') {
+          echo '<script> alert(\'Mensagem enviada com Sucesso!!!\'); </script>';
+        }
+        if ($_GET['msg'] == 'erro') {
+          echo '<script> alert(\'Erro ao enviar a Mensagem\'); </script>';
+        }
+        ?>
         <div id="contato-banner">
             <nav class="transparent menu-topo" role="navigation">
                 <div class="nav-wrapper container">
@@ -123,14 +132,14 @@
         <script src="js/materialize.js"></script>
         <script src="js/init.js"></script>
         <script>
-            $(function () {
-                $('li').hover(function () {
-                    $(this).addClass('arrow_box');
-                });
-                $('li').mouseout(function () {
-                    $(this).removeClass('arrow_box');
-                });
-            });
+      $(function () {
+          $('li').hover(function () {
+              $(this).addClass('arrow_box');
+          });
+          $('li').mouseout(function () {
+              $(this).removeClass('arrow_box');
+          });
+      });
         </script>
     </body>
 </html>
