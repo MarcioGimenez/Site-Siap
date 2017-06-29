@@ -72,20 +72,20 @@
             <div class="container center-align">
                 <h2 class="left verde-siap-escuro-text">Enviar Mensagem</h2>
                 <div class="row">
-                    <form class="col s12">
+                    <form class="col s12" action="env-contato.php" method="post">
                         <div class="row">
                             <div class="input-field col s6">
-                                <input id="nome" type="text">
+                                <input id="nome" name="nome" type="text">
                                 <label for="Nome" data-error="wrong" data-success="right">Nome</label>
                             </div>
                             <div class="input-field col s6">
-                                <input id="email" type="email" class="validate">
+                                <input id="email" name="email" type="email" class="validate">
                                 <label for="email" data-error="wrong" data-success="right">Email</label>
                             </div>
                         </div>
                         <div class="row">
                             <div class="input-field col s12">
-                                <textarea id="msg" class="materialize-textarea"></textarea>
+                                <textarea id="msg" name="msg" class="materialize-textarea"></textarea>
                                 <label for="msg" data-error="wrong" data-success="right">Mensagem</label>
                             </div>
                         </div>
