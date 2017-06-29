@@ -32,17 +32,17 @@
                         <a href="/br"><img src="img/br.png" /></a>
                     </div>
                     <ul class="right hide-on-med-and-down">
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="sobre.html">SOBRE</a></li>
-                        <li><a href="quem_somos.html">QUEM SOMOS</a></li>
-                        <li><a href="contato.html">CONTATO</a></li>
+                        <li><a href="index.php">HOME</a></li>
+                        <li><a href="sobre.php">SOBRE</a></li>
+                        <li><a href="quem_somos.php">QUEM SOMOS</a></li>
+                        <li><a href="contato.php">CONTATO</a></li>
                     </ul>
 
                     <ul id="nav-mobile" class="side-nav">
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="sobre.html">SOBRE</a></li>
-                        <li><a href="quem_somos.html">QUEM SOMOS</a></li>
-                        <li><a href="contato.html">CONTATO</a></li>
+                        <li><a href="index.php">HOME</a></li>
+                        <li><a href="sobre.php">SOBRE</a></li>
+                        <li><a href="quem_somos.php">QUEM SOMOS</a></li>
+                        <li><a href="contato.php">CONTATO</a></li>
                     </ul>
                     <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
                 </div>

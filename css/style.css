@@ -85,11 +85,7 @@ body{
     line-height: 35px;
 }
 .txt-header{
-    width: 500px;
-    float: right;
     height: 300px;
-    //padding-top: 100px;
-    margin-left: 25%;
     color: #000;
 
 }
@@ -97,12 +93,13 @@ body{
     color: #0d512b;
 }
 .txt-sobre{
-    width: 600px;
-    float: right;
     height: 300px;
     padding-top: 30%;
     //margin-left: 20%;
     color: #fff;
+}
+.row-txt-sobre{
+    margin-top: 600px;
 }
 #sobre-fazenda{
     padding-top: 83%;
@@ -235,6 +232,7 @@ footer.page-footer {
 .div-mapas{
     display: none;
 }
+
 #mapa-solo{
     display: block;
 }
@@ -253,12 +251,37 @@ footer.page-footer {
     padding-top: 20px !important;
     display: none;
 }
+.div-mapas-texturas-box{
+    padding-top: 20px !important;
+    display: none;
+}
 #mapa-solo-default{
     display: block;
 }
+#mapa-solo-default-box{
+    display: block;
+}
 #light-box-container{
-    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
     display: none;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+}
+#mapa-galeria{
+    margin-top: 20px;
+}
+.light-box-bg{
+    position: absolute;
+    left: 0;
+    //top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.95 !important;
+    display: none;
+
 }
 .fechar-box{
     padding-top: 20px;
