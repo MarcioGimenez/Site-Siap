@@ -23,7 +23,7 @@
         <div id="contato-banner">
             <nav class="transparent menu-topo" role="navigation">
                 <div class="nav-wrapper container">
-                    <a id="logo-container" href="#" class="brand-logo"><img src="img/logo.png" class="logo responsive-img"></a>
+                    <a id="logo-container" href="<?=$_SERVER['HTTP_HOST']?>" class="brand-logo"><img src="img/logo.png" class="logo responsive-img"></a>
                     <div class="lang right">
                         <a href="/en"><img src="img/en.png" class="margin5-right" /></a>
                         <a href="/br"><img src="img/br.png" /></a>
@@ -109,7 +109,7 @@
         </div>
 
         <div id="contato-mapa">
-            <div class="container center-align">
+            <div class="center-align">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.556479014613!2d-46.67735128541196!3d-23.58436756832652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce575e9cd5884f%3A0x221e3e0c6fa6eeec!2sBrascam+-+R.+Joaquim+Floriano%2C+466+-+Itaim+Bibi%2C+S%C3%A3o+Paulo+-+SP%2C+04534-002!5e0!3m2!1spt-BR!2sbr!4v1497585599710" height="450" frameborder="0" style="border:0; width: 100%" allowfullscreen></iframe>
             </div>
         </div>

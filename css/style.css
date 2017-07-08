@@ -98,9 +98,7 @@ body{
     //margin-left: 20%;
     color: #fff;
 }
-.row-txt-sobre{
-    margin-top: 600px;
-}
+
 #sobre-fazenda{
     padding-top: 83%;
     color: #fff;
@@ -150,7 +148,34 @@ p {
 footer.page-footer {
     margin: 0;
 }
+.arrow_box_mapas {
+    position: relative;
+    background: transparent;
+    /*border: 1px solid #0d512b;*/
+}
+.arrow_box_mapas:after, .arrow_box:before {
+    bottom: -1px;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
 
+.arrow_box_mapas:after {
+    border-color: rgba(213, 0, 0, 0);
+    border-bottom-color: #E3F3EA !important;
+    border-width: 8px;
+    margin-left: -8px;
+}
+.arrow_box_mapas:before {
+    border-color: rgba(13, 81, 43, 0);
+    border-bottom-color: #0d512b;
+    border-width: 9px;
+    margin-left: -9px;
+}
 
 .arrow_box {
     position: relative;
@@ -199,6 +224,7 @@ footer.page-footer {
 }
 #home-mapas{
     background-color: #E3F3EA;
+    min-height: 800px;
 }
 #home-mapas nav ul li a{
     font-size: 22px;
@@ -238,6 +264,7 @@ footer.page-footer {
 }
 #mapa-solo-box{
     display: block;
+    //margin-top: -50px;
 }
 .fotos-zoom img{
     cursor: -moz-zoom-in; 
@@ -268,6 +295,7 @@ footer.page-footer {
     height: 100%;
     left: 0;
     right: 0;
+    top: 0;
 }
 #mapa-galeria{
     margin-top: 20px;
@@ -275,7 +303,7 @@ footer.page-footer {
 .light-box-bg{
     position: absolute;
     left: 0;
-    //top: 0;
+    top: 0;
     width: 100%;
     height: 100%;
     background: #000;
@@ -283,7 +311,17 @@ footer.page-footer {
     display: none;
 
 }
+.light-box{
+   position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1500;
+    display: none;
+}
 .fechar-box{
-    padding-top: 20px;
+    padding-top: 10px;
     cursor: pointer;
+    margin: 0px;
 }

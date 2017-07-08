@@ -26,7 +26,7 @@
         <div id="sobre-banner">
             <nav class="transparent menu-topo sobre-nav" role="navigation">
                 <div class="nav-wrapper container">
-                    <a id="logo-container" href="#" class="brand-logo"><img src="img/logo-negativo.png" class="logo responsive-img"></a>
+                    <a id="logo-container" href="<?=$_SERVER['HTTP_HOST']?>" class="brand-logo"><img src="img/logo-negativo.png" class="logo responsive-img"></a>
                     <div class="lang right">
                         <a href="/en"><img src="img/en.png" class="margin5-right" /></a>
                         <a href="/br"><img src="img/br.png" /></a>
