@@ -48,36 +48,48 @@
                     </ul>
                     <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
                     <div class="row">
-                        <div class="txt-header right-align col s12 m12 l7 offset-l5">
-                            <h1>Lorem Ipsum</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dictum erat orci, in fringilla dolor tincidunt in. In tristique erat massa. Nunc quam tellus, euismod ac sodales sit amet, dapibus ac diam. Nunc tincidunt a tellus vel tincidunt. Morbi non porttitor lectus. Phasellus enim purus, consequat eu lorem vel, bibendum condimentum neque.</p>
+                        <div class="txt-header right-align col s12 m12 l6 offset-l5">
+                            <h1>Contribuição ativa no Agronegócio.</h1>
+                            <p>Antenada as oportunidades na agropecuária, em um país com terras férteis e com clima facilitador para o plantio, a SIAP tem o objetivo de contribuir no crescimento e desenvolvimento desse importante setor da economia, o agronegócio. 
+                            </p>
                         </div>
                     </div>
                     <div class="row row-txt-sobre">
-                        <div class="txt-sobre right-align col s12 m12 l7 offset-l5">
-                            <h2>Lorem ipsum</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dictum erat orci, in fringilla dolor tincidunt in. In tristique erat massa. Nunc quam tellus, euismod ac sodales sit amet, dapibus ac diam. Nunc tincidunt a tellus vel tincidunt. Morbi non porttitor lectus. Phasellus enim purus, consequat eu lorem vel, bibendum condimentum neque.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dictum erat orci, in fringilla dolor tincidunt in. In tristique erat massa. Nunc quam tellus, euismod ac sodales sit amet, dapibus ac diam. Nunc tincidunt a tellus vel tincidunt. Morbi non porttitor lectus. Phasellus enim purus, consequat eu lorem vel, bibendum condimentum neque.</p>
+                        <div class="txt-sobre right-align col s12 m12 l6 offset-l5">
+                            <h2>SIAP. Inovação e resultados para o seu negócio.</h2>
+                            <p>A SIAP é uma empresa de desenvolvimento agrícola focada no Mato Grosso. Especializada em recuperar áreas degradadas e transformar áreas de pecuária em lavouras de soja, milho e algodão. Além de cuidar da regularização fundiária, loteamento de grandes áreas e administração de fazendas em forma de grandes condomínios. </p>
                         </div>
                     </div>
                 </div>
             </nav>
-            <div id="sobre-fazenda">
-                <div class="container center-align">
+            <div id="sobre-fazenda" class="row">
+                <div class="container center-align col s12 m12 l6 offset-l5">
                     <br>
                     <h2>Fazenda Fronteira</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dictum erat orci, in fringilla dolor tincidunt in. In tristique erat massa. Nunc quam tellus, euismod ac sodales sit amet, dapibus ac diam. Nunc tincidunt a tellus vel tincidunt. Morbi non porttitor lectus. Phasellus enim purus, consequat eu lorem vel, bibendum condimentum neque.</p>
                     <br><br><br>
                 </div>
             </div>   
-        </div>
-        <div id="foto-fazenda-home">
-            <img src="img/foto-fazenda.png" class="responsive-img"/>
-        </div>
-        <div id="icones-fazenda">
-            <img src="img/sobre-fazenda-home.png" class="responsive-img"/>
-        </div>
 
+            <div id="sobre-fazenda-icones" >
+                <div class="container center-align row">
+                    <div class="col s12 m4 l4">
+                        <img src="img/fazenda-redondo-1.png">
+                        <p>A SIAP é uma empresa de desenvolvimento agrícola focada no Mato Grosso. Especializada em recuperar áreas degradadas e transformar áreas de pecuária em lavouras de soja, milho e algodão. Além de cuidar da regularização fundiária, loteamento de grandes áreas e administração de fazendas em forma de grandes condomínios. </p>
+                    </div>
+                    <div class="col s12 m4 l4">
+                        <img src="img/fazenda-redondo-2.png">
+                        <p>A SIAP é uma empresa de desenvolvimento agrícola focada no Mato Grosso. Especializada em recuperar áreas degradadas e transformar áreas de pecuária em lavouras de soja, milho e algodão. Além de cuidar da regularização fundiária, loteamento de grandes áreas e administração de fazendas em forma de grandes condomínios. </p>
+                    </div>
+                    <div class="col s12 m4 l4">
+                        <img src="img/fazenda-redondo-3.png">
+                        <p>A SIAP é uma empresa de desenvolvimento agrícola focada no Mato Grosso. Especializada em recuperar áreas degradadas e transformar áreas de pecuária em lavouras de soja, milho e algodão. Além de cuidar da regularização fundiária, loteamento de grandes áreas e administração de fazendas em forma de grandes condomínios. </p>
+                    </div>
+
+                    <br>
+                </div>
+            </div>  
+        </div>
         <div id="home-mapas">
 
             <div class="container center-align container-default">
