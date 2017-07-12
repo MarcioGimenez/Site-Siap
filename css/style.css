@@ -12,11 +12,32 @@ body{
 html, body {
     min-height: 100%;
 }
-#index-banner{
-    background-image: url('../img/bg-1080.jpg');
+#index-banner-topo{
+    background-image: url('../img/home_siap_01.jpg');
     background-repeat:no-repeat;
-    background-size: 100%;
-    height: 100%
+    background-size: 100% 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.txt-sobre{
+    background-image: url('../img/home_siap_02.jpg');
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    overflow: hidden;
+    color: #fff;
+}
+.fazenda-foto{
+    background-image: url('../img/home_siap_03.jpg');
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    overflow: hidden; 
+    
+}
+.txt-sobre h2{
+    font-size: 28px;
+    font-weight: bold;
 }
 #contato-banner{
     background-image: url('../img/backgroundContato.jpg');
@@ -50,7 +71,7 @@ html, body {
     font-size: 24px !important;
     font-weight: bold !important;
     margin: 0px !important;
-   
+
 }
 #quemsomos-infos h3{
     font-size: 18px !important;
@@ -99,23 +120,16 @@ html, body {
 .txt-header p{
     color: #626262;
 }
-.txt-sobre{
-    height: 300px;
-    padding-top: 30%;
-    //margin-left: 20%;
-    color: #fff;
-}
-.txt-sobre h2{
-    font-size: 28px;
-    font-weight: bold;
-}
+
 
 #sobre-fazenda{
-    margin-top: 1370px;
     color: #fff;
+    background-color: #3E5247;
+    margin: 0px;
 }
 #sobre-fazenda-icones{
-    margin-top: 300px;
+    background-color: #3E5247;
+    margin-bottom: -20px;
 }
 
 nav ul a,
@@ -325,7 +339,7 @@ footer.page-footer {
 
 }
 .light-box{
-   position: fixed;
+    position: fixed;
     width: 100%;
     height: 100%;
     top: 0;

@@ -1,18 +1,15 @@
-@media screen and (min-width: 300px) and (max-width: 799px) {
-    #index-banner{
-        background-image: url('../img/bg-720.jpg');
-    }
+@media screen and (min-width: 300px) and (max-width: 700px) {
     .txt-header{
+        height: 250px;
+    }
+    .txt-header p{
+        color: #fff;
+    }
+    .txt-sobre{
         height: 300px;
     }
     .txt-header h1{
         font-size: 18px;
-    }
-    .txt-header p{
-        color: #000;
-    }
-    .txt-sobre{
-        height: 450px;
     }
     .txt-sobre h2{
         font-size: 18px;
@@ -30,23 +27,56 @@
     .lang {
         margin-top: 10px;
     }
-}
-@media screen and (min-width: 800px) and (max-width: 1099px) {
-
-    .txt-header{
-        height: 400px;
+    .fazenda-foto{
+        height: 250px;
     }
 }
-@media screen and (min-width: 1100px) and (max-width: 1200px) {
+@media screen and (min-width: 701px) and (max-width: 1000px) {
+
+    .txt-header{
+        height: 350px;
+    }
+    .txt-sobre{
+        height: 400px;
+    }
+    .fazenda-foto{
+        height: 300px;
+    }
+}
+@media screen and (min-width: 1001px) and (max-width: 1300px) {
     .txt-header{
         height: 430px;
     }
+    .txt-sobre{
+        height: 450px;
+    }
+    .fazenda-foto{
+        height: 400px;
+    }
 
 }
-@media screen and (min-width: 1431px) and (max-width: 1920px) {
+@media screen and (min-width: 1301px) and (max-width: 1920px) {
 
     .txt-header{
         height: 650px;
+    }
+    .txt-sobre{
+        height: 550px;
+    }
+    .fazenda-foto{
+        height: 450px;
+    }
+}
+@media screen and (min-width: 1921px) {
+
+    .txt-header{
+        height: 700px;
+    }
+    .txt-sobre{
+        height: 600px;
+    }
+    .fazenda-foto{
+        height: 500px;
     }
 }
 
