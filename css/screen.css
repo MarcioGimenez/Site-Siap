@@ -1,18 +1,43 @@
+@media screen and (max-width: 535px) {
+    #texturas-solo{
+        display: none;
+    }
+    #texturas-solo-mobile{
+        display: block;
+        margin-top: 30px;
+    }
+    .menu-mapas{
+        margin-bottom: 50px;
+    }
+}
 @media screen and (min-width: 300px) and (max-width: 700px) {
+    #sobre-banner{
+        height: 150px;
+    }
+    #quem-somos-banner{
+        height: 150px;
+    }
+    #contato-banner{
+        height: 150px;
+    }
     .txt-header{
-        height: 250px;
+        height: 270px;
     }
     .txt-header p{
         color: #fff;
+        line-height: 18px;
     }
     .txt-sobre{
-        height: 300px;
+        height: 320px;
     }
     .txt-header h1{
         font-size: 18px;
     }
     .txt-sobre h2{
         font-size: 18px;
+    }
+    .txt-sobre p{
+        line-height: 18px;
     }
     #home-mapas nav ul li a {
         font-size: 14px;
@@ -30,9 +55,26 @@
     .fazenda-foto{
         height: 250px;
     }
+    .solo_descricao{
+        display: none;
+    }
+    #mapa-solo-descricao{
+        margin-top: 20px;
+    }
+
+
+
 }
 @media screen and (min-width: 701px) and (max-width: 1000px) {
-
+    #sobre-banner{
+        height: 250px;
+    }
+    #quem-somos-banner{
+        height: 250px;
+    }
+    #contato-banner{
+        height: 250px;
+    }
     .txt-header{
         height: 350px;
     }
@@ -42,8 +84,23 @@
     .fazenda-foto{
         height: 300px;
     }
+    .menu-topo {
+        padding-top: 0px;
+    }
+    .lang {
+        margin-top: 10px;
+    }
 }
 @media screen and (min-width: 1001px) and (max-width: 1300px) {
+    #sobre-banner{
+        height: 380px;
+    }
+    #quem-somos-banner{
+        height: 380px;
+    }
+    #contato-banner{
+        height: 380px;
+    }
     .txt-header{
         height: 430px;
     }
@@ -56,19 +113,35 @@
 
 }
 @media screen and (min-width: 1301px) and (max-width: 1920px) {
-
+    #sobre-banner{
+        height: 400px;
+    }
+    #quem-somos-banner{
+        height: 400px;
+    }
+    #contato-banner{
+        height: 400px;
+    }
     .txt-header{
         height: 650px;
     }
     .txt-sobre{
-        height: 550px;
+        height: 650px;
     }
     .fazenda-foto{
         height: 450px;
     }
 }
 @media screen and (min-width: 1921px) {
-
+    #sobre-banner{
+        height: 450px;
+    }
+    #quem-somos-banner{
+        height: 450px;
+    }
+    #contato-banner{
+        height: 450px;
+    }
     .txt-header{
         height: 700px;
     }

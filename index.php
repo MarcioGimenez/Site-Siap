@@ -52,7 +52,7 @@
             </nav>
 
             <div class="txt-header row container">
-                <div class="right-align col s12 m12 l6 offset-l5">
+                <div class="right-align col s12 m10 l6 offset-l5">
                     <h1>Contribuição ativa no Agronegócio.</h1>
                     <p>Antenada as oportunidades na agropecuária, em um país com terras férteis e com clima facilitador para o plantio, a SIAP tem o objetivo de contribuir no crescimento e desenvolvimento desse importante setor da economia, o agronegócio. 
                     </p>
@@ -62,19 +62,26 @@
 
         <div class="txt-sobre">
             <div class="row container">
-                <div class="container right-align col s12 m12 l6 offset-l5">
+                <div class="container left-align col s12 m10 l6 offset-l5">
                     <h2>SIAP. Inovação e resultados para o seu negócio.</h2>
-                    <p>A SIAP é uma empresa de desenvolvimento agrícola focada no Mato Grosso. Especializada em recuperar áreas degradadas e transformar áreas de pecuária em lavouras de soja, milho e algodão. Além de cuidar da regularização fundiária, loteamento de grandes áreas e administração de fazendas em forma de grandes condomínios. </p>
+                    <p>A <b>SIAP</b> é uma empresa de desenvolvimento agrícola focada no Mato Grosso. Especializada em recuperar áreas degradadas e transformar áreas de pecuária em lavouras de soja, milho e algodão. Além de cuidar da regularização fundiária, loteamento de grandes áreas e administração de fazendas em forma de grandes condomínios. </p>
                 </div>
             </div>
         </div>
 
-        <div id="sobre-fazenda" class="row">
-            <div class="container center-align col s12 m12 l6 offset-l5">
-                <br>
-                <h2>Fazenda Fronteira</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dictum erat orci, in fringilla dolor tincidunt in. In tristique erat massa. Nunc quam tellus, euismod ac sodales sit amet, dapibus ac diam. Nunc tincidunt a tellus vel tincidunt. Morbi non porttitor lectus. Phasellus enim purus, consequat eu lorem vel, bibendum condimentum neque.</p>
-                <br><br><br>
+        <div id="sobre-fazenda">
+            <div class="row container">
+                <div class="col s6 m3 l3 offset-l1 offset-s3">
+                    <img src="img/logo-fazenda-fronteira.png" class="responsive-img"/> 
+                </div>
+                <div class="left-align col s12 m12 l7">
+
+                    <h2>Fazenda Fronteira</h2>
+                    <p>A Fazenda Fronteira está situada no estado do Mato Grosso, único local do mundo que permite a plantação de 2 safras de culturas distintas por ano, utilizando a mesma terra. Uma área localizada há 530 km de Cuiabá e com 47 mil hectares, possui solo fértil e está próxima de três grandes rios, Papagaio, Honorato e Santa Cruz o que beneficia a irrigação e leva à excelente colheita dos produtos. </p>
+                    <p>A Fazenda comporta um condomínio de loteamentos para expansão de áreas agrícolas com oferecimento de infraestrutura moderna, adequada e completa para que o pequeno e médio produtor possa ter a sua própria terra e apoio total para seu plantio. 
+                    </p>
+                    <br>
+                </div>
             </div>
         </div>   
         <div class="fazenda-foto">
@@ -83,17 +90,17 @@
 
         <div id="sobre-fazenda-icones" >
             <div class="container center-align row">
-                <div class="col s12 m4 l4">
-                    <img src="img/fazenda-redondo-1.png">
-                    <p>A SIAP é uma empresa de desenvolvimento agrícola focada no Mato Grosso. Especializada em recuperar áreas degradadas e transformar áreas de pecuária em lavouras de soja, milho e algodão. Além de cuidar da regularização fundiária, loteamento de grandes áreas e administração de fazendas em forma de grandes condomínios. </p>
+                <div class="col s12 m4 l4 ">
+                    <img src="img/fazenda-redondo-1.png" class="responsive-img">
+                    <p>A Fazenda Fronteira, Situada em Mato Grosso possui terras agrícolas de grande potencial produtivo para venda e pequenos e médios produtores</p>
                 </div>
                 <div class="col s12 m4 l4">
-                    <img src="img/fazenda-redondo-2.png">
-                    <p>A SIAP é uma empresa de desenvolvimento agrícola focada no Mato Grosso. Especializada em recuperar áreas degradadas e transformar áreas de pecuária em lavouras de soja, milho e algodão. Além de cuidar da regularização fundiária, loteamento de grandes áreas e administração de fazendas em forma de grandes condomínios. </p>
+                    <img src="img/fazenda-redondo-2.png" class="responsive-img">
+                    <p>Infraestrutura e suporte para produção, beneficiamento e armazenamento de grãos e algodão além de pecuária</p>
                 </div>
                 <div class="col s12 m4 l4">
-                    <img src="img/fazenda-redondo-3.png">
-                    <p>A SIAP é uma empresa de desenvolvimento agrícola focada no Mato Grosso. Especializada em recuperar áreas degradadas e transformar áreas de pecuária em lavouras de soja, milho e algodão. Além de cuidar da regularização fundiária, loteamento de grandes áreas e administração de fazendas em forma de grandes condomínios. </p>
+                    <img src="img/fazenda-redondo-3.png" class="responsive-img" >
+                    <p>Benefício de financiamento subsidiado para grupos de pequenos e médios produtores, Logística favorável com fácil acesso à rodovias e portos</p>
                 </div>
 
                 <br>
@@ -116,7 +123,7 @@
                 </nav>
 
                 <div id="mapa-solo" class="row div-mapas">
-                    <p><h3>Solo/Argila</h3></p>
+                    <p><h3 class="solo_descricao">Solo/Argila</h3></p>
                     <div id="texturas-solo">
                         <div id="textura-azul" class="col s3 center-align">
                             <img src="img/azul.png" class="show-img-textura hoverable" rel="azul"/>
@@ -152,7 +159,35 @@
                     <div id="mapa-solo-vermelho" class="col m11 offset-m1 right-align fotos-zoom zoom-solo div-mapas-texturas">
                         <img src="img/mapa-vermelho-solo.png" class="responsive-img"/>
                     </div>
-                    <div id="mapa-solo-descricao" class="col m4 left-align">
+
+                <div id="texturas-solo-mobile" class="left-align col s12">
+                        <div class="row">
+                            <div id="textura-azul" class="col s12">
+                                <img src="img/azul.png" class="show-img-textura hoverable" rel="azul" width="25" height="25"/>
+                                Textura acima de 30% 5,748.3 ha 
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div id="textura-laranja" class="col s12">
+                                <img src="img/laranja.png" class="show-img-textura hoverable" rel="laranja" width="25" height="25"/>
+                                Textura entre 20 e 30% 1,813.8 ha
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div id="textura-amarelo" class="col s12">
+                                <img src="img/amarelo.png" class="show-img-textura hoverable" rel="amarelo" width="25" height="25"/>
+                                Textura entre 15 e 20% 4,896.6 ha
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div id="textura-vermelho" class="col s12">
+                                <img src="img/vermelho.png" class="show-img-textura hoverable" rel="vermelho" width="25" height="25"/>
+                                Textura abaixo de 15% 6,339.9 ha
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="mapa-solo-descricao" class="col s12 m5 left-align">
                         <p class="center-align"><b>Terras Agrícolas</b></p>
                         <p> Total de área com lavoura...........9.028,2 ha</p>
                         <p> Área para desmate.....................10.341,7 ha</p>

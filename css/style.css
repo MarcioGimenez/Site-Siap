@@ -41,21 +41,18 @@ html, body {
 }
 #contato-banner{
     background-image: url('../img/backgroundContato.jpg');
-    height: 570px;
     background-repeat:no-repeat;
-    background-size:100%;
+    background-size:100% 100%;
 }
 #quem-somos-banner{
     background-image: url('../img/backgroundQuemSomos.jpg');
-    height: 565px;
     background-repeat:no-repeat;
-    background-size:100%;
+    background-size:100% 100%;
 }
 #sobre-banner{
     background-image: url('../img/backgroundSobre.jpg');
-    height: 575px;
     background-repeat:no-repeat;
-    background-size:100%;
+    background-size:100% 100%;
 }
 #contato-msg h2{
     font-size: 24px !important;
@@ -125,11 +122,16 @@ html, body {
 #sobre-fazenda{
     color: #fff;
     background-color: #3E5247;
-    margin: 0px;
+    margin-bottom: -20px;
+}
+#sobre-fazenda h2{
+    font-size: 28px;
 }
 #sobre-fazenda-icones{
     background-color: #3E5247;
     margin-bottom: -20px;
+    padding-top: 20px;
+    color: #FFF;
 }
 
 nav ul a,
@@ -259,7 +261,7 @@ footer.page-footer {
 }
 
 #mapa-solo-descricao{
-    margin-top: -50px;
+    margin-top: -20px;
 }
 #mapa-solo-descricao p{
     margin: 0px;
@@ -268,6 +270,9 @@ footer.page-footer {
 }
 #mapa-solo-descricao p b{
     line-height: 40px;
+}
+#texturas-solo-mobile{
+    display: none;
 }
 #texturas-solo p{
     line-height: 12px;

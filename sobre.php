@@ -9,6 +9,7 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/screen.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <style>
             nav ul a{
                 color: #FFF;
@@ -26,7 +27,7 @@
         <div id="sobre-banner">
             <nav class="transparent menu-topo sobre-nav" role="navigation">
                 <div class="nav-wrapper container">
-                    <a id="logo-container" href="<?=$_SERVER['HTTP_HOST']?>" class="brand-logo"><img src="img/logo-negativo.png" class="logo responsive-img"></a>
+                    <a id="logo-container" href="<?= $_SERVER['HTTP_HOST'] ?>" class="brand-logo"><img src="img/logo-negativo.png" class="logo responsive-img"></a>
                     <div class="lang right">
                         <a href="/en"><img src="img/en.png" class="margin5-right" /></a>
                         <a href="/br"><img src="img/br.png" /></a>
@@ -57,9 +58,9 @@
                             <p><h2 class="verde-siap-escuro-text">Quem é SIAP ?</h2></p>
 
                             <p>
-                               Em 2013, nasce a SIAP, uma empresa que tem como objetivo o desenvolvimento agrícola, voltada para o pequeno e médio produtor, que busca a oportunidade de adquirir um espaço próprio, disponibilizando toda a infraestrutura necessária para que o agricultor possa produzir e garantir o progresso de suas safras, contando com os recursos da fazenda viabilizados pela SIAP. <br> <br>
-                            Como uma empresa sempre antenada as mudanças no cenário agropecuário no Brasil e no mundo, a SIAP viu a oportunidade no país que se tornou um importante produtor e comerciante de soja e milho e investiu na criação de condomínios de loteamento para produção agrícola. Com isso iniciou o projeto da Fazenda Fronteira, situada no estado do Mato Grosso, com terras agrícolas de alto potencial produtivo, com 47 mil hectares, onde atualmente 20 mil estão prontos para produção.<br>  <br>
-                            Nossa missão é garantir o desenvolvimento agropecuário, fornecendo a melhor estrutura e gerando facilitadores para garantir o sucesso da produção, sendo um elo entre a cadeia produtiva e o mercado, assegurando o retorno do capital tanto aos produtores, quanto aos investidores, valorizando o homem no campo. <br>
+                                Em 2013, nasce a SIAP, uma empresa que tem como objetivo o desenvolvimento agrícola, voltada para o pequeno e médio produtor, que busca a oportunidade de adquirir um espaço próprio, disponibilizando toda a infraestrutura necessária para que o agricultor possa produzir e garantir o progresso de suas safras, contando com os recursos da fazenda viabilizados pela SIAP. <br> <br>
+                                Como uma empresa sempre antenada as mudanças no cenário agropecuário no Brasil e no mundo, a SIAP viu a oportunidade no país que se tornou um importante produtor e comerciante de soja e milho e investiu na criação de condomínios de loteamento para produção agrícola. Com isso iniciou o projeto da Fazenda Fronteira, situada no estado do Mato Grosso, com terras agrícolas de alto potencial produtivo, com 47 mil hectares, onde atualmente 20 mil estão prontos para produção.<br>  <br>
+                                Nossa missão é garantir o desenvolvimento agropecuário, fornecendo a melhor estrutura e gerando facilitadores para garantir o sucesso da produção, sendo um elo entre a cadeia produtiva e o mercado, assegurando o retorno do capital tanto aos produtores, quanto aos investidores, valorizando o homem no campo. <br>
 
                             </p>
                         </div>
@@ -86,14 +87,14 @@
         <script src="js/materialize.js"></script>
         <script src="js/init.js"></script>
         <script>
-            $(function () {
-                $('li').hover(function () {
-                    $(this).addClass('arrow_box');
-                });
-                $('li').mouseout(function () {
-                    $(this).removeClass('arrow_box');
-                });
-            });
+          $(function () {
+              $('li').hover(function () {
+                  $(this).addClass('arrow_box');
+              });
+              $('li').mouseout(function () {
+                  $(this).removeClass('arrow_box');
+              });
+          });
         </script>
     </body>
 </html>
