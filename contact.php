@@ -7,9 +7,9 @@
 
         <!-- CSS  -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-        <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-        <link href="css/screen.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="https://siapagro.com/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="https://siapagro.com/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="https://siapagro.com/css/screen.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     </head>
 
     <body>
@@ -82,7 +82,7 @@
             <div class="container center-align">
                 <h2 class="left verde-siap-escuro-text">Sens Mensage</h2>
                 <div class="row">
-                    <form class="col s12" action="env-contato.php" method="post">
+                    <form class="col s12" action="https://siapagro.com/env-contato.php" method="post">
                         <div class="row">
                             <div class="input-field col s6">
                                 <input id="nome" name="nome" type="text">

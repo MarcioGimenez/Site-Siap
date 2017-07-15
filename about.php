@@ -7,9 +7,9 @@
 
         <!-- CSS  -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-        <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-        <link href="css/screen.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="https://siapagro.com/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="https://siapagro.com/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="https://siapagro.com/css/screen.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <style>
             nav ul a{
                 color: #FFF;
@@ -27,10 +27,10 @@
         <div id="sobre-banner">
             <nav class="transparent menu-topo sobre-nav" role="navigation">
                 <div class="nav-wrapper container">
-                    <a id="logo-container" href="<?= $_SERVER['HTTP_HOST'] ?>" class="brand-logo"><img src="img/logo-negativo.png" class="logo responsive-img"></a>
+                    <a id="logo-container" href="https://siapagro.com/en" class="brand-logo"><img src="https://siapagro.com/img/logo-negativo.png" class="logo responsive-img"></a>
                     <div class="lang right">
-                        <a href="https://siapagro.com/en/about"><img src="img/en.png" class="margin5-right" /></a>
-                        <a href="https://siapagro.com/br/sobre"><img src="img/br.png" /></a>
+                        <a href="https://siapagro.com/en/about"><img src="https://siapagro.com/img/en.png" class="margin5-right" /></a>
+                        <a href="https://siapagro.com/br/sobre"><img src="https://siapagro.com/img/br.png" /></a>
                     </div>
                     <ul class="right hide-on-med-and-down">
                         <li><a href="https://siapagro.com/en">HOME</a></li>
@@ -83,8 +83,8 @@
         </footer>
         <!--  Scripts-->
         <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-        <script src="js/materialize.js"></script>
-        <script src="js/init.js"></script>
+        <script src="https://siapagro.com/js/materialize.js"></script>
+        <script src="https://siapagro.com/js/init.js"></script>
         <script>
           $(function () {
               $('li').hover(function () {
