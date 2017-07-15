@@ -26,33 +26,35 @@
 
             <nav class="transparent menu-topo" role="navigation">
                 <div class="nav-wrapper container">
-                    <a id="logo-container" href="https://siapagro.com/br" class="brand-logo"><img src="https://siapagro.com/img/logo.png" class="logo responsive-img"></a>
+
+
+                    <a id="logo-container" href="<?= $_SERVER['HTTP_HOST'] ?>" class="brand-logo"><img src="https://siapagro.com/img/logo.png" class="logo responsive-img"></a>
                     <div class="lang right">
-                        <a href="https://siapagro.com/en"><img src="https://siapagro.com/img/en.png" class="margin5-right" /></a>
-                        <a href="https://siapagro.com/br"><img src="https://siapagro.com/img/br.png" /></a>
+                        <a href="https://siapagro.com/en/about"><img src="https://siapagro.com/img/en.png" class="margin5-right" /></a>
+                        <a href="https://siapagro.com/br/sobre"><img src="https://siapagro.com/img/br.png" /></a>
                     </div>
                     <ul class="right hide-on-med-and-down">
-                        <li><a href="https://siapagro.com/br">HOME</a></li>
-                        <li><a href="https://siapagro.com/br/sobre">SOBRE</a></li>
-                        <li><a href="https://siapagro.com/br/quem_somos">QUEM SOMOS</a></li>
-                        <li><a href="https://siapagro.com/br/contato">CONTATO</a></li>
+                        <li><a href="https://siapagro.com/en">HOME</a></li>
+                        <li><a href="https://siapagro.com/en/about">ABOUT</a></li>
+                        <li><a href="https://siapagro.com/en/who_we_are">WHO WE ARE</a></li>
+                        <li><a href="https://siapagro.com/en/contact">CONTACT</a></li>
                     </ul>
 
                     <ul id="nav-mobile" class="side-nav">
-                        <li><a href="https://siapagro.com/br">HOME</a></li>
-                        <li><a href="https://siapagro.com/br/sobre">SOBRE</a></li>
-                        <li><a href="https://siapagro.com/br/quem_somos">QUEM SOMOS</a></li>
-                        <li><a href="https://siapagro.com/br/contato">CONTATO</a></li>
-                    </ul><a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+                        <li><a href="https://siapagro.com/en">HOME</a></li>
+                        <li><a href="https://siapagro.com/en/about">ABOUT</a></li>
+                        <li><a href="https://siapagro.com/en/who_we_are">WHO WE ARE</a></li>
+                        <li><a href="https://siapagro.com/en/contact">CONTACT</a></li>
+                    </ul>
+                    <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
 
                 </div>
             </nav>
 
             <div class="txt-header row container">
                 <div class="right-align col s12 m10 l6 offset-l5">
-                    <h1>Contribuição ativa no Agronegócio.</h1>
-                    <p>Antenada as oportunidades na agropecuária, em um país com terras férteis e com clima facilitador para o plantio, a SIAP tem o objetivo de contribuir no crescimento e desenvolvimento desse importante setor da economia, o agronegócio. 
-                    </p>
+                    <h1>Active contribution in Agribusiness.</h1>
+                    <p>Once the opportunities in agriculture and livestock, in a country with fertile lands and with a facilitating climate for planting, SIAP has the objective of contributing to the growth and development of this important sector of the economy, agribusiness.</p>
                 </div>
             </div>
         </div>
@@ -60,8 +62,8 @@
         <div class="txt-sobre">
             <div class="row container">
                 <div class="container left-align col s12 m10 l6 offset-l5">
-                    <h2>SIAP. Inovação e resultados para o seu negócio.</h2>
-                    <p>A <b>SIAP</b> é uma empresa de desenvolvimento agrícola focada no Mato Grosso. Especializada em recuperar áreas degradadas e transformar áreas de pecuária em lavouras de soja, milho e algodão. Além de cuidar da regularização fundiária, loteamento de grandes áreas e administração de fazendas em forma de grandes condomínios. </p>
+                    <h2>SIAP. Innovation and results for your business.</h2>
+                    <p>The <b>SIAP</b> is an agricultural development company focused in Mato Grosso. Specialized in recovering degraded areas and transform livestock areas in crops of soy, corn and cotton. In addition to taking care of land regularization, subdivision of large areas and administration of farms in the form of large condominiums.</p>
                 </div>
             </div>
         </div>
@@ -73,9 +75,9 @@
                 </div>
                 <div class="left-align col s12 m12 l7">
 
-                    <h2>Fazenda Fronteira</h2>
-                    <p>A Fazenda Fronteira está situada no estado do Mato Grosso, único local do mundo que permite a plantação de 2 safras de culturas distintas por ano, utilizando a mesma terra. Uma área localizada há 530 km de Cuiabá e com 47 mil hectares, possui solo fértil e está próxima de três grandes rios, Papagaio, Honorato e Santa Cruz o que beneficia a irrigação e leva à excelente colheita dos produtos. </p>
-                    <p>A Fazenda comporta um condomínio de loteamentos para expansão de áreas agrícolas com oferecimento de infraestrutura moderna, adequada e completa para que o pequeno e médio produtor possa ter a sua própria terra e apoio total para seu plantio. 
+                    <h2>Farm Fronteira</h2>
+                    <p>The Fronteira Farm is located in the state of Mato Grosso, the only place in the world that allows the planting of 2 crops of different crops per year, using the same land. An area located 530 km from Cuiabá and with 47 thousand hectares, has fertile soil and is close to three major rivers, Papagaio, Honorato and Santa Cruz which benefits the irrigation and leads to the excellent harvest of the products. </p>
+                    <p>The Farm includes a condominium of lots for expansion of agricultural areas with the provision of modern, adequate and complete infrastructure so that the small and medium producers can have their own land and full support for their planting. 
                     </p>
                     <br>
                 </div>
@@ -89,15 +91,15 @@
             <div class="container center-align row">
                 <div class="col s12 m4 l4 ">
                     <img src="https://siapagro.com/img/fazenda-redondo-1.png" class="responsive-img">
-                    <p>A Fazenda Fronteira, Situada em Mato Grosso possui terras agrícolas de grande potencial produtivo para venda e pequenos e médios produtores</p>
+                    <p>Fazenda Fronteira, located in Mato Grosso, has agricultural land with great potential for sale and small and medium-sized producers</p>
                 </div>
                 <div class="col s12 m4 l4">
                     <img src="https://siapagro.com/img/fazenda-redondo-2.png" class="responsive-img">
-                    <p>Infraestrutura e suporte para produção, beneficiamento e armazenamento de grãos e algodão além de pecuária</p>
+                    <p>Infrastructure and support for production, processing and storage of grains and cotton in addition to livestock</p>
                 </div>
                 <div class="col s12 m4 l4">
                     <img src="https://siapagro.com/img/fazenda-redondo-3.png" class="responsive-img" >
-                    <p>Benefício de financiamento subsidiado para grupos de pequenos e médios produtores, Logística favorável com fácil acesso à rodovias e portos</p>
+                    <p>Benefit of subsidized financing for groups of small and medium producers, Favorable logistics with easy access to highways and ports</p>
                 </div>
 
                 <br>
@@ -194,14 +196,14 @@
                 </div>  
 
                 <div id="mapa-hidro" class="row div-mapas">
-                    <p><h3>Abundância em água com os rios Papagaios, Honorato, Santa Cruz</h3></p>
+                    <p><h3>Abundance in water with the rivers Parrots, Honorato, Santa Cruz</h3></p>
                     <div id="mapa-hidro-default" class="col m12 fotos-zoom zoom-hidro">
                         <img src="https://siapagro.com/img/mapa-hidrografico-pequeno.png" class="responsive-img"/>
                     </div>
                 </div>
 
                 <div id="mapa-localizacao" class="row div-mapas">
-                    <p><h3>A área está localizada no município de Brasnorte em Mato Grosso</h3></p>
+                    <p><h3>The area is located in the municipality of Brasnorte in Mato Grosso</h3></p>
                     <div id="mapa-localizacao-default" class="col m12">
                         <img src="https://siapagro.com/img/mapa-localizacao-fazenda.png" class="responsive-img"/>
                     </div>

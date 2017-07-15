@@ -4,10 +4,12 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 RewriteCond %{HTTP_HOST} ^www\.
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-RewriteRule ^contato/?$ contato.php [NC,L]
-RewriteRule ^quem_somos/?$ quem_somos.php [NC,L]
-RewriteRule ^sobre/?$ sobre.php [NC,L]
+RewriteRule ^br/?$ index.php [NC,L]
+RewriteRule ^br/contato/?$ contato.php [NC,L]
+RewriteRule ^br/quem_somos/?$ quem_somos.php [NC,L]
+RewriteRule ^br/sobre/?$ sobre.php [NC,L]
 
-RewriteRule ^contact/?$ contact.php [NC,L]
-RewriteRule ^who_we_are/?$ who_we_are.php [NC,L]
-RewriteRule ^about/?$ about.php [NC,L]
+RewriteRule ^en/?$ index_en.php [NC,L]
+RewriteRule ^en/contact/?$ contact.php [NC,L]
+RewriteRule ^en/who_we_are/?$ who_we_are.php [NC,L]
+RewriteRule ^en/about/?$ about.php [NC,L]

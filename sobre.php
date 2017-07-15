@@ -7,9 +7,9 @@
 
         <!-- CSS  -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-        <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-        <link href="css/screen.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="https://siapagro.com/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="https://siapagro.com/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="https://siapagro.com/css/screen.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <style>
             nav ul a{
                 color: #FFF;
@@ -27,25 +27,24 @@
         <div id="sobre-banner">
             <nav class="transparent menu-topo sobre-nav" role="navigation">
                 <div class="nav-wrapper container">
-                    <a id="logo-container" href="<?= $_SERVER['HTTP_HOST'] ?>" class="brand-logo"><img src="img/logo-negativo.png" class="logo responsive-img"></a>
+                    <a id="logo-container" href="https://siapagro.com/br" class="brand-logo"><img src="https://siapagro.com/img/logo.png" class="logo responsive-img"></a>
                     <div class="lang right">
-                        <a href="/en"><img src="img/en.png" class="margin5-right" /></a>
-                        <a href="/br"><img src="img/br.png" /></a>
+                        <a href="https://siapagro.com/en"><img src="https://siapagro.com/img/en.png" class="margin5-right" /></a>
+                        <a href="https://siapagro.com/br"><img src="https://siapagro.com/img/br.png" /></a>
                     </div>
                     <ul class="right hide-on-med-and-down">
-                        <li><a href="index.php">HOME</a></li>
-                        <li><a href="sobre.php">SOBRE</a></li>
-                        <li><a href="quem_somos.php">QUEM SOMOS</a></li>
-                        <li><a href="contato.php">CONTATO</a></li>
+                        <li><a href="https://siapagro.com/br">HOME</a></li>
+                        <li><a href="https://siapagro.com/br/sobre">SOBRE</a></li>
+                        <li><a href="https://siapagro.com/br/quem_somos">QUEM SOMOS</a></li>
+                        <li><a href="https://siapagro.com/br/contato">CONTATO</a></li>
                     </ul>
 
                     <ul id="nav-mobile" class="side-nav">
-                        <li><a href="index.php">HOME</a></li>
-                        <li><a href="sobre.php">SOBRE</a></li>
-                        <li><a href="quem_somos.php">QUEM SOMOS</a></li>
-                        <li><a href="contato.php">CONTATO</a></li>
-                    </ul>
-                    <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+                        <li><a href="https://siapagro.com/br">HOME</a></li>
+                        <li><a href="https://siapagro.com/br/sobre">SOBRE</a></li>
+                        <li><a href="https://siapagro.com/br/quem_somos">QUEM SOMOS</a></li>
+                        <li><a href="https://siapagro.com/br/contato">CONTATO</a></li>
+                    </ul><a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
                 </div>
             </nav>
         </div>
@@ -84,8 +83,8 @@
         </footer>
         <!--  Scripts-->
         <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-        <script src="js/materialize.js"></script>
-        <script src="js/init.js"></script>
+        <script src="https://siapagro.com/js/materialize.js"></script>
+        <script src="https://siapagro.com/js/init.js"></script>
         <script>
           $(function () {
               $('li').hover(function () {

@@ -15,24 +15,25 @@
         <div id="quem-somos-banner">
             <nav class="transparent menu-topo" role="navigation">
                 <div class="nav-wrapper container">
-                    <a id="logo-container" href="https://siapagro.com/br" class="brand-logo"><img src="https://siapagro.com/img/logo.png" class="logo responsive-img"></a>
+                    <a id="logo-container" href="<?= $_SERVER['HTTP_HOST'] ?>" class="brand-logo"><img src="https://siapagro.com/img/logo.png" class="logo responsive-img"></a>
                     <div class="lang right">
-                        <a href="https://siapagro.com/en"><img src="https://siapagro.com/img/en.png" class="margin5-right" /></a>
-                        <a href="https://siapagro.com/br"><img src="https://siapagro.com/img/br.png" /></a>
+                        <a href="https://siapagro.com/en/about"><img src="https://siapagro.com/img/en.png" class="margin5-right" /></a>
+                        <a href="https://siapagro.com/br/sobre"><img src="https://siapagro.com/img/br.png" /></a>
                     </div>
                     <ul class="right hide-on-med-and-down">
-                        <li><a href="https://siapagro.com/br">HOME</a></li>
-                        <li><a href="https://siapagro.com/br/sobre">SOBRE</a></li>
-                        <li><a href="https://siapagro.com/br/quem_somos">QUEM SOMOS</a></li>
-                        <li><a href="https://siapagro.com/br/contato">CONTATO</a></li>
+                        <li><a href="https://siapagro.com/en">HOME</a></li>
+                        <li><a href="https://siapagro.com/en/about">ABOUT</a></li>
+                        <li><a href="https://siapagro.com/en/who_we_are">WHO WE ARE</a></li>
+                        <li><a href="https://siapagro.com/en/contact">CONTACT</a></li>
                     </ul>
 
                     <ul id="nav-mobile" class="side-nav">
-                        <li><a href="https://siapagro.com/br">HOME</a></li>
-                        <li><a href="https://siapagro.com/br/sobre">SOBRE</a></li>
-                        <li><a href="https://siapagro.com/br/quem_somos">QUEM SOMOS</a></li>
-                        <li><a href="https://siapagro.com/br/contato">CONTATO</a></li>
-                    </ul><a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+                        <li><a href="https://siapagro.com/en">HOME</a></li>
+                        <li><a href="https://siapagro.com/en/about">ABOUT</a></li>
+                        <li><a href="https://siapagro.com/en/who_we_are">WHO WE ARE</a></li>
+                        <li><a href="https://siapagro.com/en/contact">CONTACT</a></li>
+                    </ul>
+                    <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
                 </div>
             </nav>
         </div>
@@ -42,7 +43,7 @@
                 <div class="row">
                     <div class="col s12">
                         <div class="left">
-                            <p><h2 class="verde-siap-escuro-text">Quem é SIAP ?</h2></p><br><br>
+                            <p><h2 class="verde-siap-escuro-text">Who is SIAP ?</h2></p><br><br>
                         </div>
                     </div>
                 </div>
@@ -55,10 +56,8 @@
                     <div class="col s12 m6 right">
                         <h2 class="verde-siap-escuro-text">André Navajas</h2>
                         <hr class="verde-siap-escuro-text">
-                        <p><br>Sócio fundador e diretor da SIAP, com mais de 15 anos de experiência no mercado financeiro, sendo 7 anos de experiência internacional nos Estados Unidos trabalhando em bancos e fundos de investimento, além de 7 anos como gestor CVM, foi sócio fundador e gestor da Atenas Asset Management com mais de R$ 600mm AuM.
-                            Também estruturou o loteamento Jardim Santa Terezinha em Araraquara – SP com 1600 lotes e VGV de R$ 100.000.000.<br>
-                            Possui graduação em administração de Empresas pela Fundação Armando Alvares Penteado e pós – graduação em International Business pela BSL – Business School Of London.
-                        </p>
+                        <p><br>Founding partner and director of SIAP, with more than 15 years of experience in the financial market, being 7 years of international experience in the United States working in banks and investment funds, besides 7 years as CVM manager, was founding partner and manager of Athens Asset Management with more than R $ 600mm AuM.<br>
+Also structured the Santa Terezinha Garden plot in Araraquara - SP with 1600 lots and PSV of R $ 100,000,000.<br>He holds a degree in Business Administration from Fundação Armando Alvares Penteado and a postgraduate degree in International Business from BSL - Business School Of London.</p>
                     </div>                    
                     <div class="col s12 m6 left">
                         <img src="https://siapagro.com/img/andre.png" width="450" height="300" class="responsive-img"/>
@@ -76,9 +75,8 @@
                     <div class="col s12 m6 left">
                         <h2 class="verde-siap-escuro-text right-align">Alfredo Andreoni</h2>
                         <hr class="verde-siap-escuro-text verde-siap-escuro">
-                        <p><br>Sócio fundador e diretor da SIAP, com mais 40 anos de experiência no mercado financeiro, sendo sócio fundador e estruturador da CCTVM, Banco Multiplo e empresário agropecuário com diversas propriedades nos estados de São-Paulo e Mato-Grosso, foi também assessor especial  por mais de 1 ano do ministro da agricultura.
-                            <br>Sócio proprietário do loteamento Jardim Santa Terezinha no município de Araraquara, com 1600 lotes e VGV de R$ 100.000.000.
-                            Possui graduação em Economia pela Faculdade Metropolitanas Unidas – SP.
+                        <p><br>Founding partner and director of SIAP, with more than 40 years of experience in the financial market, he was a founding partner and structurer of CCTVM, Banco Multiplo and an agricultural entrepreneur with several properties in the states of São Paulo and Mato Grosso. Of 1 year of the Minister of Agriculture.<br>
+Partner owner of the Jardim Santa Terezinha allotment in the municipality of Araraquara, with 1600 lots and PSV of R $ 100,000,000. He holds a degree in Economics from the United Metropolitan University - SP.
                         </p>
                     </div>
                     <div class="col s12 m6 right">
@@ -96,7 +94,8 @@
                     <div class="col s12 m6 right">
                         <h2 class="verde-siap-escuro-text">João Batista de Azevedo Soares</h2>
                         <hr class="verde-siap-escuro-text">
-                        <p><br>Sócio minoritário da SIAP com 10% do capital, com mais de 15 anos de experiência no mercado financeiro. <br>Formado em administração de empresas pela Universidade Paulista 
+                        <p><br>Minority partner of SIAP with 10% of the capital, with more than 15 years of experience in the financial market.<br>
+Graduated in business administration from Universidade Paulista
                         </p>
                     </div>                    
                     <div class="col s12 m6 left">

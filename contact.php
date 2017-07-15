@@ -7,9 +7,9 @@
 
         <!-- CSS  -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link href="https://siapagro.com/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-        <link href="https://siapagro.com/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-        <link href="https://siapagro.com/css/screen.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/screen.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     </head>
 
     <body>
@@ -24,24 +24,25 @@
         <div id="contato-banner">
             <nav class="transparent menu-topo" role="navigation">
                 <div class="nav-wrapper container">
-                    <a id="logo-container" href="https://siapagro.com/br" class="brand-logo"><img src="https://siapagro.com/img/logo.png" class="logo responsive-img"></a>
-                    <div class="lang right">
-                        <a href="https://siapagro.com/en"><img src="https://siapagro.com/img/en.png" class="margin5-right" /></a>
-                        <a href="https://siapagro.com/br"><img src="https://siapagro.com/img/br.png" /></a>
+                    <a id="logo-container" href="<?=$_SERVER['HTTP_HOST']?>" class="brand-logo"><img src="https://siapagro.com/img/logo.png" class="logo responsive-img"></a>
+                     <div class="lang right">
+                        <a href="https://siapagro.com/en/about"><img src="https://siapagro.com/img/en.png" class="margin5-right" /></a>
+                        <a href="https://siapagro.com/br/sobre"><img src="https://siapagro.com/img/br.png" /></a>
                     </div>
                     <ul class="right hide-on-med-and-down">
-                        <li><a href="https://siapagro.com/br">HOME</a></li>
-                        <li><a href="https://siapagro.com/br/sobre">SOBRE</a></li>
-                        <li><a href="https://siapagro.com/br/quem_somos">QUEM SOMOS</a></li>
-                        <li><a href="https://siapagro.com/br/contato">CONTATO</a></li>
+                        <li><a href="https://siapagro.com/en">HOME</a></li>
+                        <li><a href="https://siapagro.com/en/about">ABOUT</a></li>
+                        <li><a href="https://siapagro.com/en/who_we_are">WHO WE ARE</a></li>
+                        <li><a href="https://siapagro.com/en/contact">CONTACT</a></li>
                     </ul>
 
                     <ul id="nav-mobile" class="side-nav">
-                        <li><a href="https://siapagro.com/br">HOME</a></li>
-                        <li><a href="https://siapagro.com/br/sobre">SOBRE</a></li>
-                        <li><a href="https://siapagro.com/br/quem_somos">QUEM SOMOS</a></li>
-                        <li><a href="https://siapagro.com/br/contato">CONTATO</a></li>
-                    </ul><a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+                        <li><a href="https://siapagro.com/en">HOME</a></li>
+                        <li><a href="https://siapagro.com/en/about">ABOUT</a></li>
+                        <li><a href="https://siapagro.com/en/who_we_are">WHO WE ARE</a></li>
+                        <li><a href="https://siapagro.com/en/contact">CONTACT</a></li>
+                    </ul>
+                    <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
                 </div>
             </nav>
         </div>
@@ -52,7 +53,7 @@
                     <div class="col s12 m4">
                         <div class="center grey-text text-darken-1">
                             <i class="material-icons medium">phone</i>
-                            <p class="infos-descricao">TELEFONE</p>
+                            <p class="infos-descricao">PHONE</p>
                             <p class="infos-descricao">+55 11 3508.8999</p>
                             <p class="infos-descricao"></p>
                         </div>
@@ -68,7 +69,7 @@
                     <div class="col s12 m4">
                         <div class="center grey-text text-darken-1">
                             <i class="material-icons medium">room</i>
-                            <p class="infos-descricao">ENDEREÇO</p>
+                            <p class="infos-descricao">ADDRESS</p>
                             <p class="infos-descricao">Rua Joaquim Floriano, Nº 466 10º Andar <br> Ed. Corporate | Itaim Bibi | São Paulo | SP</p>
                             <p class="infos-descricao"></p>
                         </div>
@@ -79,13 +80,13 @@
         </div> 
         <div id="contato-msg">
             <div class="container center-align">
-                <h2 class="left verde-siap-escuro-text">Enviar Mensagem</h2>
+                <h2 class="left verde-siap-escuro-text">Sens Mensage</h2>
                 <div class="row">
-                    <form class="col s12" action="https://siapagro.com/env-contato.php" method="post">
+                    <form class="col s12" action="env-contato.php" method="post">
                         <div class="row">
                             <div class="input-field col s6">
                                 <input id="nome" name="nome" type="text">
-                                <label for="Nome" data-error="wrong" data-success="right">Nome</label>
+                                <label for="Nome" data-error="wrong" data-success="right">Name</label>
                             </div>
                             <div class="input-field col s6">
                                 <input id="email" name="email" type="email" class="validate">
@@ -95,7 +96,7 @@
                         <div class="row">
                             <div class="input-field col s12">
                                 <textarea id="msg" name="msg" class="materialize-textarea"></textarea>
-                                <label for="msg" data-error="wrong" data-success="right">Mensagem</label>
+                                <label for="msg" data-error="wrong" data-success="right">Mensage</label>
                             </div>
                         </div>
                         <div class="row">
@@ -132,14 +133,14 @@
         <script src="https://siapagro.com/js/materialize.js"></script>
         <script src="https://siapagro.com/js/init.js"></script>
         <script>
-          $(function () {
-              $('li').hover(function () {
-                  $(this).addClass('arrow_box');
-              });
-              $('li').mouseout(function () {
-                  $(this).removeClass('arrow_box');
-              });
+      $(function () {
+          $('li').hover(function () {
+              $(this).addClass('arrow_box');
           });
+          $('li').mouseout(function () {
+              $(this).removeClass('arrow_box');
+          });
+      });
         </script>
     </body>
 </html>
