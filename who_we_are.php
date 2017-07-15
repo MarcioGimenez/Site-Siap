@@ -15,7 +15,7 @@
         <div id="quem-somos-banner">
             <nav class="transparent menu-topo" role="navigation">
                 <div class="nav-wrapper container">
-                    <a id="logo-container" href="<?= $_SERVER['HTTP_HOST'] ?>" class="brand-logo"><img src="https://siapagro.com/img/logo.png" class="logo responsive-img"></a>
+                    <a id="logo-container" href="https://siapagro.com/en" class="brand-logo"><img src="https://siapagro.com/img/logo.png" class="logo responsive-img"></a>
                     <div class="lang right">
                         <a href="https://siapagro.com/en/about"><img src="https://siapagro.com/img/en.png" class="margin5-right" /></a>
                         <a href="https://siapagro.com/br/sobre"><img src="https://siapagro.com/img/br.png" /></a>
