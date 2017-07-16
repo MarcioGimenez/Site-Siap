@@ -11,15 +11,11 @@
         <link href="https://siapagro.com/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="https://siapagro.com/css/screen.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <style>
-            nav ul a{
-                color: #FFF;
+            .menu-topo {
+                padding-top: 10px;
             }
-            nav ul li{
-                border-bottom: 1px solid #FFF;
-
-            }
-            .button-collapse {
-                color: #FFF;
+            .lang{
+                margin-top: 15px;
             }
         </style>
     </head>
@@ -58,9 +54,9 @@
                             <p><h2 class="verde-siap-escuro-text">Who is  SIAP ?</h2></p>
 
                             <p>
-                               In 2013, SIAP is born, a company that aims at agricultural development, aimed at the small and medium producers, which seeks the opportunity to acquire their own space, providing all the necessary infrastructure so that the farmer can produce and guarantee progress Of its crops, counting on the resources of the farm made possible by SIAP.
-<br><br> As a company always aware of the changes in the agricultural scenario in Brazil and in the world, SIAP saw the opportunity in the country that became an important producer and trader of soy and corn and invested in the creation of condominiums of allotment for agricultural production. With this started the Fronteira Farm project, located in the state of Mato Grosso, with agricultural land of high productive potential, with 47 thousand hectares, where currently 20 thousand are ready for production.
- <br><br>Our mission is to guarantee the agricultural development, providing the best structure and generating facilitators to guarantee the success of the production, being a link between the productive chain and the market, assuring the return of capital to both producers and investors, valuing the man in the field.
+                                In 2013, SIAP is born, a company that aims at agricultural development, aimed at the small and medium producers, which seeks the opportunity to acquire their own space, providing all the necessary infrastructure so that the farmer can produce and guarantee progress Of its crops, counting on the resources of the farm made possible by SIAP.
+                                <br><br> As a company always aware of the changes in the agricultural scenario in Brazil and in the world, SIAP saw the opportunity in the country that became an important producer and trader of soy and corn and invested in the creation of condominiums of allotment for agricultural production. With this started the Fronteira Farm project, located in the state of Mato Grosso, with agricultural land of high productive potential, with 47 thousand hectares, where currently 20 thousand are ready for production.
+                                 <br><br>Our mission is to guarantee the agricultural development, providing the best structure and generating facilitators to guarantee the success of the production, being a link between the productive chain and the market, assuring the return of capital to both producers and investors, valuing the man in the field.
                             </p>
                         </div>
                     </div>

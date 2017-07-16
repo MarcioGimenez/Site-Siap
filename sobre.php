@@ -15,7 +15,7 @@
                 padding-top: 10px;
             }
             .lang{
-                padding-top: 15px;
+                margin-top: 15px;
             }
         </style>
     </head>
