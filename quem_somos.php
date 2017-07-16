@@ -17,8 +17,8 @@
                 <div class="nav-wrapper container">
                     <a id="logo-container" href="https://siapagro.com/br" class="brand-logo"><img src="https://siapagro.com/img/logo.png" class="logo responsive-img"></a>
                     <div class="lang right">
-                        <a href="https://siapagro.com/en"><img src="https://siapagro.com/img/en.png" class="margin5-right" /></a>
-                        <a href="https://siapagro.com/br"><img src="https://siapagro.com/img/br.png" /></a>
+                        <a href="https://siapagro.com/en/who_we_are"><img src="https://siapagro.com/img/en.png" class="margin5-right" /></a>
+                        <a href="https://siapagro.com/br/quem_somos"><img src="https://siapagro.com/img/br.png" /></a>
                     </div>
                     <ul class="right hide-on-med-and-down">
                         <li><a href="https://siapagro.com/br">HOME</a></li>

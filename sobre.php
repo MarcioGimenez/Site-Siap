@@ -11,26 +11,22 @@
         <link href="https://siapagro.com/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="https://siapagro.com/css/screen.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <style>
-            nav ul a{
-                color: #FFF;
+            .menu-topo {
+                padding-top: 10px;
             }
-            nav ul li{
-                border-bottom: 1px solid #FFF;
-
-            }
-            .button-collapse {
-                color: #FFF;
+            .lang{
+                padding-top: 15px;
             }
         </style>
     </head>
     <body>
         <div id="sobre-banner">
-            <nav class="transparent menu-topo sobre-nav" role="navigation">
+            <nav class="transparent menu-topo" role="navigation">
                 <div class="nav-wrapper container">
                     <a id="logo-container" href="https://siapagro.com/br" class="brand-logo"><img src="https://siapagro.com/img/logo.png" class="logo responsive-img"></a>
                     <div class="lang right">
-                        <a href="https://siapagro.com/en"><img src="https://siapagro.com/img/en.png" class="margin5-right" /></a>
-                        <a href="https://siapagro.com/br"><img src="https://siapagro.com/img/br.png" /></a>
+                        <a href="https://siapagro.com/en/about"><img src="https://siapagro.com/img/en.png" class="margin5-right" /></a>
+                        <a href="https://siapagro.com/br/sobre"><img src="https://siapagro.com/img/br.png" /></a>
                     </div>
                     <ul class="right hide-on-med-and-down">
                         <li><a href="https://siapagro.com/br">HOME</a></li>
