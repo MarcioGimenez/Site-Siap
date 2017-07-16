@@ -21,27 +21,26 @@
     </head>
     <body>
         <div id="sobre-banner">
-            <nav class="transparent menu-topo sobre-nav" role="navigation">
+            <nav class="transparent menu-topo" role="navigation">
                 <div class="nav-wrapper container">
-                    <a id="logo-container" href="https://siapagro.com/en" class="brand-logo"><img src="https://siapagro.com/img/logo-negativo.png" class="logo responsive-img"></a>
+                    <a id="logo-container" href="https://siapagro.com/br" class="brand-logo"><img src="https://siapagro.com/img/logo.png" class="logo responsive-img"></a>
                     <div class="lang right">
                         <a href="https://siapagro.com/en/about"><img src="https://siapagro.com/img/en.png" class="margin5-right" /></a>
                         <a href="https://siapagro.com/br/sobre"><img src="https://siapagro.com/img/br.png" /></a>
                     </div>
                     <ul class="right hide-on-med-and-down">
-                        <li><a href="https://siapagro.com/en">HOME</a></li>
-                        <li><a href="https://siapagro.com/en/about">ABOUT</a></li>
-                        <li><a href="https://siapagro.com/en/who_we_are">WHO WE ARE</a></li>
-                        <li><a href="https://siapagro.com/en/contact">CONTACT</a></li>
+                        <li><a href="https://siapagro.com/br">HOME</a></li>
+                        <li><a href="https://siapagro.com/br/sobre">SOBRE</a></li>
+                        <li><a href="https://siapagro.com/br/quem_somos">QUEM SOMOS</a></li>
+                        <li><a href="https://siapagro.com/br/contato">CONTATO</a></li>
                     </ul>
 
                     <ul id="nav-mobile" class="side-nav">
-                        <li><a href="https://siapagro.com/en">HOME</a></li>
-                        <li><a href="https://siapagro.com/en/about">ABOUT</a></li>
-                        <li><a href="https://siapagro.com/en/who_we_are">WHO WE ARE</a></li>
-                        <li><a href="https://siapagro.com/en/contact">CONTACT</a></li>
-                    </ul>
-                    <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+                        <li><a href="https://siapagro.com/br">HOME</a></li>
+                        <li><a href="https://siapagro.com/br/sobre">SOBRE</a></li>
+                        <li><a href="https://siapagro.com/br/quem_somos">QUEM SOMOS</a></li>
+                        <li><a href="https://siapagro.com/br/contato">CONTATO</a></li>
+                    </ul><a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
                 </div>
             </nav>
         </div>
