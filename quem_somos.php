@@ -55,13 +55,16 @@
                     <div class="col s12 m6 right">
                         <h2 class="verde-siap-escuro-text">André Navajas</h2>
                         <hr class="verde-siap-escuro-text">
-                        <p><br>Sócio fundador e diretor da SIAP, com mais de 15 anos de experiência no mercado financeiro, sendo 7 anos de experiência internacional nos Estados Unidos trabalhando em bancos e fundos de investimento, além de 7 anos como gestor CVM, foi sócio fundador e gestor da Atenas Asset Management com mais de R$ 600mm AuM.
-                            Também estruturou o loteamento Jardim Santa Terezinha em Araraquara – SP com 1600 lotes e VGV de R$ 100.000.000.<br>
-                            Possui graduação em administração de Empresas pela Fundação Armando Alvares Penteado e pós – graduação em International Business pela BSL – Business School Of London.
-                        </p>
-                    </div>                    
+                    </div>
                     <div class="col s12 m6 left">
                         <img src="https://siapagro.com/img/andre.png" width="450" height="300" class="responsive-img"/>
+                    </div>   
+                    <div class="col s12 m6 right">
+
+                        <p><br>Sócio fundador e diretor da SIAP, com mais de 15 anos de experiência no mercado financeiro, sendo 7 anos de experiência internacional nos Estados Unidos trabalhando em bancos e fundos de investimento, além de 7 anos como gestor CVM, foi sócio fundador e gestor da Atenas Asset Management com mais de R$ 600mm AuM.<br><br>
+                            Também estruturou o loteamento Jardim Santa Terezinha em Araraquara – SP com 1600 lotes e VGV de R$ 100.000.000.<br><br>
+                            Possui graduação em administração de Empresas pela Fundação Armando Alvares Penteado e pós – graduação em International Business pela BSL – Business School Of London.<br><br>
+                        </p>
                     </div>                    
                 </div>
             </div>
@@ -76,13 +79,15 @@
                     <div class="col s12 m6 left">
                         <h2 class="verde-siap-escuro-text right-align">Alfredo Andreoni</h2>
                         <hr class="verde-siap-escuro-text verde-siap-escuro">
-                        <p><br>Sócio fundador e diretor da SIAP, com mais 40 anos de experiência no mercado financeiro, sendo sócio fundador e estruturador da CCTVM, Banco Multiplo e empresário agropecuário com diversas propriedades nos estados de São-Paulo e Mato-Grosso, foi também assessor especial  por mais de 1 ano do ministro da agricultura.
-                            <br>Sócio proprietário do loteamento Jardim Santa Terezinha no município de Araraquara, com 1600 lotes e VGV de R$ 100.000.000.
-                            Possui graduação em Economia pela Faculdade Metropolitanas Unidas – SP.
-                        </p>
                     </div>
                     <div class="col s12 m6 right">
                         <img src="https://siapagro.com/img/alfredo.png" width="450" height="300" class="responsive-img"/>
+                    </div>
+                    <div class="col s12 m6 left">
+                        <p><br>Sócio fundador e diretor da SIAP, com mais 40 anos de experiência no mercado financeiro, sendo sócio fundador e estruturador da CCTVM, Banco Multiplo e empresário agropecuário com diversas propriedades nos estados de São-Paulo e Mato-Grosso, foi também assessor especial  por mais de 1 ano do ministro da agricultura.
+                            <br><br>Sócio proprietário do loteamento Jardim Santa Terezinha no município de Araraquara, com 1600 lotes e VGV de R$ 100.000.000.<br><br>
+                            Possui graduação em Economia pela Faculdade Metropolitanas Unidas – SP.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -96,12 +101,15 @@
                     <div class="col s12 m6 right">
                         <h2 class="verde-siap-escuro-text">João Batista de Azevedo Soares</h2>
                         <hr class="verde-siap-escuro-text">
-                        <p><br>Sócio minoritário da SIAP com 10% do capital, com mais de 15 anos de experiência no mercado financeiro. <br>Formado em administração de empresas pela Universidade Paulista 
-                        </p>
-                    </div>                    
+                    </div>
                     <div class="col s12 m6 left">
                         <img src="https://siapagro.com/img/joao.png" width="450" height="300" class="responsive-img"/>
+                    </div>
+                    <div class="col s12 m6 right">
+                        <p><br>Sócio minoritário da SIAP com 10% do capital, com mais de 15 anos de experiência no mercado financeiro. <br><br>Formado em administração de empresas pela Universidade Paulista 
+                        </p>
                     </div>                    
+
                 </div>
             </div>
         </div>

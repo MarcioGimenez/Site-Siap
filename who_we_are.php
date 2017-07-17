@@ -56,12 +56,14 @@
                     <div class="col s12 m6 right">
                         <h2 class="verde-siap-escuro-text">André Navajas</h2>
                         <hr class="verde-siap-escuro-text">
-                        <p><br>Founding partner and director of SIAP, with more than 15 years of experience in the financial market, being 7 years of international experience in the United States working in banks and investment funds, besides 7 years as CVM manager, was founding partner and manager of Athens Asset Management with more than R $ 600mm AuM.<br>
-Also structured the Santa Terezinha Garden plot in Araraquara - SP with 1600 lots and PSV of R $ 100,000,000.<br>He holds a degree in Business Administration from Fundação Armando Alvares Penteado and a postgraduate degree in International Business from BSL - Business School Of London.</p>
-                    </div>                    
+                    </div>
                     <div class="col s12 m6 left">
                         <img src="https://siapagro.com/img/andre.png" width="450" height="300" class="responsive-img"/>
-                    </div>                    
+                    </div>
+                    <div class="col s12 m6 right">
+                        <p><br>Founding partner and director of SIAP, with more than 15 years of experience in the financial market, being 7 years of international experience in the United States working in banks and investment funds, besides 7 years as CVM manager, was founding partner and manager of Athens Asset Management with more than R $ 600mm AuM.<br>
+                            Also structured the Santa Terezinha Garden plot in Araraquara - SP with 1600 lots and PSV of R $ 100,000,000.<br>He holds a degree in Business Administration from Fundação Armando Alvares Penteado and a postgraduate degree in International Business from BSL - Business School Of London.</p>
+                    </div>                                      
                 </div>
             </div>
         </div>
@@ -75,12 +77,14 @@ Also structured the Santa Terezinha Garden plot in Araraquara - SP with 1600 lot
                     <div class="col s12 m6 left">
                         <h2 class="verde-siap-escuro-text right-align">Alfredo Andreoni</h2>
                         <hr class="verde-siap-escuro-text verde-siap-escuro">
-                        <p><br>Founding partner and director of SIAP, with more than 40 years of experience in the financial market, he was a founding partner and structurer of CCTVM, Banco Multiplo and an agricultural entrepreneur with several properties in the states of São Paulo and Mato Grosso. Of 1 year of the Minister of Agriculture.<br>
-Partner owner of the Jardim Santa Terezinha allotment in the municipality of Araraquara, with 1600 lots and PSV of R $ 100,000,000. He holds a degree in Economics from the United Metropolitan University - SP.
-                        </p>
                     </div>
                     <div class="col s12 m6 right">
                         <img src="https://siapagro.com/img/alfredo.png" width="450" height="300" class="responsive-img"/>
+                    </div>
+                    <div class="col s12 m6 left">
+                        <p><br>Founding partner and director of SIAP, with more than 40 years of experience in the financial market, he was a founding partner and structurer of CCTVM, Banco Multiplo and an agricultural entrepreneur with several properties in the states of São Paulo and Mato Grosso. Of 1 year of the Minister of Agriculture.<br>
+                            Partner owner of the Jardim Santa Terezinha allotment in the municipality of Araraquara, with 1600 lots and PSV of R $ 100,000,000. He holds a degree in Economics from the United Metropolitan University - SP.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -94,13 +98,15 @@ Partner owner of the Jardim Santa Terezinha allotment in the municipality of Ara
                     <div class="col s12 m6 right">
                         <h2 class="verde-siap-escuro-text">João Batista de Azevedo Soares</h2>
                         <hr class="verde-siap-escuro-text">
-                        <p><br>Minority partner of SIAP with 10% of the capital, with more than 15 years of experience in the financial market.<br>
-Graduated in business administration from Universidade Paulista
-                        </p>
-                    </div>                    
+                    </div>
                     <div class="col s12 m6 left">
                         <img src="https://siapagro.com/img/joao.png" width="450" height="300" class="responsive-img"/>
-                    </div>                    
+                    </div>
+                    <div class="col s12 m6 right">
+                        <p><br>Minority partner of SIAP with 10% of the capital, with more than 15 years of experience in the financial market.<br>
+                            Graduated in business administration from Universidade Paulista
+                        </p>
+                    </div>                                        
                 </div>
             </div>
         </div>
