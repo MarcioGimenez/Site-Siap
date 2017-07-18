@@ -3,13 +3,13 @@
         background-image: url('https://siapagro.com/img/home_siap_01_mobile.jpg');
     }
     .txt-sobre{
-        background-image: url('https://siapagro.com/img/home_siap_02.jpg');
+        background-image: url('https://siapagro.com/img/home_siap_02_mobile.jpg');
     }
     .fazenda-foto{
         background-image: url('https://siapagro.com/img/home_siap_03_mobile.jpg');
     }
     #sobre-fazenda{
-        background-color: #37493e !important;
+        background-color: #36473d !important;
     }
 
 }
@@ -36,14 +36,14 @@
         height: 150px;
     }
     .txt-header{
-        height: 220px;
+        height: 280px;
     }
     .txt-header p{
         color: #fff;
         line-height: 18px;
     }
     .txt-sobre{
-        height: 300px;
+        height: 280px;
     }
     .txt-header h1{
         font-size: 18px;
