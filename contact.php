@@ -26,14 +26,14 @@
                 <div class="nav-wrapper container">
                     <a id="logo-container" href="https://siapagro.com/en" class="brand-logo"><img src="https://siapagro.com/img/logo.png" class="logo responsive-img"></a>
                      <div class="lang right">
-                        <a href="https://siapagro.com/en/contact"><img src="https://siapagro.com/img/en.png" class="margin5-right" /></a>
+                        <a href="https://siapagro.com/en/contact"><img src="https://siapagro.com/img/en.png" class="margin5-right lang_hover" /></a>
                         <a href="https://siapagro.com/br/contato"><img src="https://siapagro.com/img/br.png" /></a>
                     </div>
                     <ul class="right hide-on-med-and-down">
                         <li><a href="https://siapagro.com/en">HOME</a></li>
                         <li><a href="https://siapagro.com/en/about">ABOUT</a></li>
                         <li><a href="https://siapagro.com/en/who_we_are">WHO WE ARE</a></li>
-                        <li><a href="https://siapagro.com/en/contact">CONTACT</a></li>
+                        <li class="arrow_box"><a href="https://siapagro.com/en/contact">CONTACT</a></li>
                     </ul>
 
                     <ul id="nav-mobile" class="side-nav">
