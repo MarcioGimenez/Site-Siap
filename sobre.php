@@ -10,14 +10,7 @@
         <link href="https://siapagro.com/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="https://siapagro.com/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="https://siapagro.com/css/screen.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-        <style>
-            .menu-topo {
-                padding-top: 10px;
-            }
-            .lang{
-                margin-top: 0px;
-            }
-        </style>
+        
     </head>
     <body>
         <div id="sobre-banner">
