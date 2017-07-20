@@ -29,17 +29,17 @@
                         <a href="https://siapagro.com/br/sobre"><img src="https://siapagro.com/img/br.png" /></a>
                     </div>
                     <ul class="right hide-on-med-and-down">
-                        <li><a href="https://siapagro.com/br">HOME</a></li>
-                        <li class="arrow_box"><a href="https://siapagro.com/br/sobre">SOBRE</a></li>
-                        <li><a href="https://siapagro.com/br/quem_somos">QUEM SOMOS</a></li>
-                        <li><a href="https://siapagro.com/br/contato">CONTATO</a></li>
+                        <li><a href="https://siapagro.com/en">HOME</a></li>
+                        <li class="arrow_box"><a href="https://siapagro.com/en/about">ABOUT</a></li>
+                        <li><a href="https://siapagro.com/en/who_we_are">WHO WE ARE</a></li>
+                        <li><a href="https://siapagro.com/en/contact">CONTACT</a></li>
                     </ul>
 
                     <ul id="nav-mobile" class="side-nav">
-                        <li><a href="https://siapagro.com/br">HOME</a></li>
-                        <li><a href="https://siapagro.com/br/sobre">SOBRE</a></li>
-                        <li><a href="https://siapagro.com/br/quem_somos">QUEM SOMOS</a></li>
-                        <li><a href="https://siapagro.com/br/contato">CONTATO</a></li>
+                        <li><a href="https://siapagro.com/en">HOME</a></li>
+                        <li><a href="https://siapagro.com/en/about">ABOUT</a></li>
+                        <li><a href="https://siapagro.com/en/who_we_are">WHO WE ARE</a></li>
+                        <li><a href="https://siapagro.com/en/contact">CONTACT</a></li>
                     </ul><a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
                 </div>
             </nav>
