@@ -26,7 +26,7 @@
             <nav class="transparent menu-topo" role="navigation">
                 <div class="nav-wrapper container">
                     <a id="logo-container" href="https://siapagro.com/en" class="brand-logo"><img src="https://siapagro.com/img/logo.png" class="logo responsive-img"></a>
-                     <div class="lang right">
+                    <div class="lang right">
                         <a href="https://siapagro.com/en/contact"><img src="https://siapagro.com/img/en.png" class="margin5-right lang_hover" /></a>
                         <a href="https://siapagro.com/br/contato"><img src="https://siapagro.com/img/br.png" /></a>
                     </div>
@@ -64,7 +64,7 @@
                         <div class="center grey-text text-darken-1">
                             <i class="material-icons medium">email</i>
                             <p class="infos-descricao">E-MAIL
-                            <br>contato@siapagro.com</p>
+                                <br>contato@siapagro.com</p>
                             <p class="infos-descricao"></p>
                         </div>
                         <br><br>
@@ -73,7 +73,7 @@
                         <div class="center grey-text text-darken-1">
                             <i class="material-icons medium">room</i>
                             <p class="infos-descricao">ADDRESS
-                            <br>Rua Joaquim Floriano, Nº 466 10º Andar <br> Ed. Corporate | Itaim Bibi | São Paulo | SP</p>
+                                <br>Rua Joaquim Floriano, Nº 466 10º Andar <br> Ed. Corporate | Itaim Bibi | São Paulo | SP</p>
                             <p class="infos-descricao"></p>
                         </div>
                         <br><br>
@@ -123,28 +123,29 @@
                 <div class="container by-txt">
                     <div class="row">
                         <div class="col s4">
-                            Developed by <a href="">FSV</a>
+                            <a href=""><img src="https://siapagro.com/img/logo-flavioshu.jpg" class="responsive-img"/></a>
                         </div>
                         <div class="col s8 right-align">
-                            <b>SIAP</b> - Sociedade Imobiliária Agropecuária e Participações
+                            © 2017 - SIAP
                         </div>
                     </div>
                 </div>
             </div>
         </footer>
+
         <!--  Scripts-->
         <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script src="https://siapagro.com/js/materialize.js"></script>
         <script src="https://siapagro.com/js/init.js"></script>
         <script>
-      $(function () {
-          $('li').hover(function () {
-              $(this).addClass('arrow_box');
+          $(function () {
+              $('li').hover(function () {
+                  $(this).addClass('arrow_box');
+              });
+              $('li').mouseout(function () {
+                  $(this).removeClass('arrow_box');
+              });
           });
-          $('li').mouseout(function () {
-              $(this).removeClass('arrow_box');
-          });
-      });
         </script>
     </body>
 </html>

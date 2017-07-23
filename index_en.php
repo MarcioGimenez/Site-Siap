@@ -380,15 +380,16 @@
                 <div class="container by-txt">
                     <div class="row">
                         <div class="col s4">
-                            Developed by <a href="">FSV</a>
+                            <a href=""><img src="https://siapagro.com/img/logo-flavioshu.jpg" class="responsive-img"/></a>
                         </div>
                         <div class="col s8 right-align">
-                            <b>SIAP</b> - Sociedade Imobiliária Agropecuária e Participações
+                            © 2017 - SIAP
                         </div>
                     </div>
                 </div>
             </div>
         </footer>
+
 
         <!--  Scripts-->
 

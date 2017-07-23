@@ -11,7 +11,7 @@
         <link href="https://siapagro.com/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="https://siapagro.com/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="https://siapagro.com/css/screen.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-        
+
     </head>
     <body>
         <div id="sobre-banner">
@@ -62,15 +62,16 @@
                 <div class="container by-txt">
                     <div class="row">
                         <div class="col s4">
-                            Developed by <a href="">FSV</a>
+                            <a href=""><img src="https://siapagro.com/img/logo-flavioshu.jpg" class="responsive-img"/></a>
                         </div>
                         <div class="col s8 right-align">
-                            <b>SIAP</b> - Sociedade Imobiliária Agropecuária e Participações
+                            © 2017 - SIAP
                         </div>
                     </div>
                 </div>
             </div>
         </footer>
+
         <!--  Scripts-->
         <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script src="https://siapagro.com/js/materialize.js"></script>
