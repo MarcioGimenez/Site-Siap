@@ -2,7 +2,9 @@
 /**
 
 */
-
+html{
+    font-family: 'Lato', sans-serif;
+}
 .logo{
     margin-top:10px;
 }
@@ -89,7 +91,7 @@ html, body {
 }
 .lang_hover{
     opacity: 1 !important;
-    
+
 }
 
 .margin5-right{
@@ -240,7 +242,9 @@ footer.page-footer {
     margin-left: -9px;
 }
 .by-txt{
-    color: #0d512b;
+    color: #AEAEAE;
+    margin-bottom: -30px;
+    margin-top: -10px;
 }
 #foto-fazenda-home{
     width: 100%;   

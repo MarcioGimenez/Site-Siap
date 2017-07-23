@@ -7,6 +7,7 @@
 
         <!-- CSS  -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
         <link href="https://siapagro.com/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="https://siapagro.com/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="https://siapagro.com/css/screen.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -17,6 +18,7 @@
 
         <script src="https://siapagro.com/dist/photoswipe.min.js?v=4.1.1-1.0.4"></script>
         <script src="https://siapagro.com/dist/photoswipe-ui-default.min.js?v=4.1.1-1.0.4"></script>
+        
     </head>
     <body>
 
@@ -378,7 +380,7 @@
                 <div class="container by-txt">
                     <div class="row">
                         <div class="col s4">
-                            Developed by <a href="">FlavioShu</a>
+                            <a href=""><img src="img/logo-flavioshu.jpg" class="responsive-img"/></a>
                         </div>
                         <div class="col s8 right-align">
                             © 2017 - SIAP

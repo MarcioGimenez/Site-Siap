@@ -11,6 +11,15 @@
     #sobre-fazenda{
         background-color: #36473d !important;
     }
+    #contato-banner{
+        background-image: url('https://siapagro.com/img/topo03-mobile.png');
+    }
+    #quem-somos-banner{
+        background-image: url('https://siapagro.com/img/topo02-mobile.png');
+    }
+    #sobre-banner{
+        background-image: url('https://siapagro.com/img/topo03-mobile.png');
+    }
 
 }
 @media screen and (max-width: 535px) {
@@ -27,13 +36,13 @@
 }
 @media screen and (min-width: 300px) and (max-width: 700px) {
     #sobre-banner{
-        height: 150px;
+        height: 215px;
     }
     #quem-somos-banner{
-        height: 150px;
+        height: 215px;
     }
     #contato-banner{
-        height: 150px;
+        height: 215px;
     }
     .txt-header{
         height: 280px;
