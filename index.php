@@ -32,7 +32,7 @@
                         <a href="https://siapagro.com/br"><img src="https://siapagro.com/img/br.png" class="lang_hover"/></a>
                     </div>
                     <ul class="right hide-on-med-and-down">
-                        
+
                         <li class="arrow_box" ><a href="https://siapagro.com/br">HOME</a></li>
                         <li><a href="https://siapagro.com/br/sobre">SOBRE</a></li>
                         <li><a href="https://siapagro.com/br/quem_somos">QUEM SOMOS</a></li>
@@ -125,7 +125,7 @@
                     <div id="texturas-solo">
                         <div id="textura-azul" class="col s3 center-align">
                             <img src="https://siapagro.com/img/azul.png" class="show-img-textura hoverable" rel="azul"/>
-                            <p>Textura acima de 30% <br>5,748.3 ha </p>
+                            <p>Textura abaixo de 15% <br>6,339.9 ha </p>
                         </div>
                         <div id="textura-laranja" class="col s3">
                             <img src="https://siapagro.com/img/laranja.png" class="show-img-textura hoverable" rel="laranja"/>
@@ -137,7 +137,7 @@
                         </div>
                         <div id="textura-vermelho" class="col s3">
                             <img src="https://siapagro.com/img/vermelho.png" class="show-img-textura hoverable" rel="vermelho"/>
-                            <p>Textura abaixo de 15% <br>6,339.9 ha </p>
+                            <p>Textura acima de 30% <br>5,748.3 ha </p>
                         </div>
                     </div>
 
@@ -162,7 +162,7 @@
                         <div class="row">
                             <div id="textura-azul" class="col s12">
                                 <img src="https://siapagro.com/img/azul.png" class="show-img-textura hoverable" rel="azul" width="25" height="25"/>
-                                Textura acima de 30% 5,748.3 ha 
+                                Textura abaixo de 15% 6,339.9 ha
                             </div>
                         </div>
                         <div class="row">
@@ -180,7 +180,7 @@
                         <div class="row">
                             <div id="textura-vermelho" class="col s12">
                                 <img src="https://siapagro.com/img/vermelho.png" class="show-img-textura hoverable" rel="vermelho" width="25" height="25"/>
-                                Textura abaixo de 15% 6,339.9 ha
+                                Textura acima de 30% 5,748.3 ha
                             </div>
                         </div>
                     </div>
@@ -325,7 +325,7 @@
                         <div id="texturas-solo">
                             <div id="textura-azul" class="col s3 center-align">
                                 <img src="https://siapagro.com/img/azul.png" class="show-img-textura-box" rel="azul"/>
-                                <p>Textura acima de 30% <br>5,748.3 ha </p>
+                                <p>Textura abaixo de 15% <br>6,339.9 ha </p>
                             </div>
                             <div id="textura-laranja" class="col s3">
                                 <img src="https://siapagro.com/img/laranja.png" class="show-img-textura-box" rel="laranja"/>
@@ -337,7 +337,7 @@
                             </div>
                             <div id="textura-vermelho" class="col s3">
                                 <img src="https://siapagro.com/img/vermelho.png" class="show-img-textura-box" rel="vermelho"/>
-                                <p>Textura abaixo de 15% <br>6,339.9 ha </p>
+                                <p>Textura acima de 30% <br>5,748.3 ha </p>
                             </div>
                         </div>
 
@@ -378,10 +378,10 @@
                 <div class="container by-txt">
                     <div class="row">
                         <div class="col s4">
-                            Developed by <a href="">FSV</a>
+                            Developed by <a href="">FlavioShu</a>
                         </div>
                         <div class="col s8 right-align">
-                            <b>SIAP</b> - Sociedade Imobiliária Agropecuária e Participações
+                            © 2017 - SIAP
                         </div>
                     </div>
                 </div>
@@ -415,6 +415,8 @@
               $('.mapas-show').click(function () {
 
                   $('.div-mapas').hide();
+                  $('.div-mapas-texturas').hide();
+                  $('#mapa-solo-default').show();
                   $('#mapa-' + $(this).attr('rel')).show();
 
                   return false;

@@ -92,27 +92,6 @@
         <br>
         <br>
         <br>
-        <div id="quemsomos-infos">
-            <div class="container">
-                <div class="row">
-                    <div class="col s12 m6 right">
-                        <h2 class="verde-siap-escuro-text">João Batista de Azevedo Soares</h2>
-                        <hr class="verde-siap-escuro-text">
-                    </div>
-                    <div class="col s12 m6 left">
-                        <img src="https://siapagro.com/img/joao.png" width="450" height="300" class="responsive-img"/>
-                    </div>
-                    <div class="col s12 m6 right">
-                        <p><br>Minority partner of SIAP with 10% of the capital, with more than 15 years of experience in the financial market.<br>
-                            Graduated in business administration from Universidade Paulista
-                        </p>
-                    </div>                                        
-                </div>
-            </div>
-        </div>
-        <br>
-        <br>
-        <br>
         <footer class="page-footer white">
             <div class="footer-copyright white">
                 <div class="container by-txt">

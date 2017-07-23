@@ -7,6 +7,7 @@
 
         <!-- CSS  -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
         <link href="https://siapagro.com/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="https://siapagro.com/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="https://siapagro.com/css/screen.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -52,26 +53,29 @@
                     <div class="col s12 m4">
                         <div class="center grey-text text-darken-1">
                             <i class="material-icons medium">phone</i>
-                            <p class="infos-descricao">TELEFONE</p>
-                            <p class="infos-descricao">+55 11 3508.8999</p>
+                            <p class="infos-descricao">TELEFONE
+                                <br>+55 11 3508.8999</p>
                             <p class="infos-descricao"></p>
                         </div>
+                        <br><br>
                     </div>
                     <div class="col s12 m4">
                         <div class="center grey-text text-darken-1">
                             <i class="material-icons medium">email</i>
-                            <p class="infos-descricao">E-MAIL</p>
-                            <p class="infos-descricao">contato@siapagro.com</p>
+                            <p class="infos-descricao">E-MAIL
+                                <br>contato@siapagro.com</p>
                             <p class="infos-descricao"></p>
                         </div>
+                        <br><br>
                     </div>
                     <div class="col s12 m4">
                         <div class="center grey-text text-darken-1">
                             <i class="material-icons medium">room</i>
-                            <p class="infos-descricao">ENDEREÇO</p>
-                            <p class="infos-descricao">Rua Joaquim Floriano, Nº 466 10º Andar <br> Ed. Corporate | Itaim Bibi | São Paulo | SP</p>
+                            <p class="infos-descricao">ENDEREÇO
+                                <br>Rua Joaquim Floriano, Nº 466 10º Andar <br> Ed. Corporate | Itaim Bibi | São Paulo | SP</p>
                             <p class="infos-descricao"></p>
                         </div>
+                        <br><br>
                     </div>
                 </div>
                 <br>
@@ -83,11 +87,11 @@
                 <div class="row">
                     <form class="col s12" action="https://siapagro.com/env-contato.php" method="post">
                         <div class="row">
-                            <div class="input-field col s6">
+                            <div class="input-field col s12 m6">
                                 <input id="nome" name="nome" type="text">
                                 <label for="Nome" data-error="wrong" data-success="right">Nome</label>
                             </div>
-                            <div class="input-field col s6">
+                            <div class="input-field col s12 m6">
                                 <input id="email" name="email" type="email" class="validate">
                                 <label for="email" data-error="wrong" data-success="right">Email</label>
                             </div>

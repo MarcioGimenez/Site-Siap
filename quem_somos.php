@@ -95,27 +95,6 @@
         <br>
         <br>
         <br>
-        <div id="quemsomos-infos">
-            <div class="container">
-                <div class="row">
-                    <div class="col s12 m6 right">
-                        <h2 class="verde-siap-escuro-text">João Batista de Azevedo Soares</h2>
-                        <hr class="verde-siap-escuro-text">
-                    </div>
-                    <div class="col s12 m6 left">
-                        <img src="https://siapagro.com/img/joao.png" width="450" height="300" class="responsive-img"/>
-                    </div>
-                    <div class="col s12 m6 right">
-                        <p><br>Sócio minoritário da SIAP com 10% do capital, com mais de 15 anos de experiência no mercado financeiro. <br><br>Formado em administração de empresas pela Universidade Paulista 
-                        </p>
-                    </div>                    
-
-                </div>
-            </div>
-        </div>
-        <br>
-        <br>
-        <br>
         <footer class="page-footer white">
             <div class="footer-copyright white">
                 <div class="container by-txt">
