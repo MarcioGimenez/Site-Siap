@@ -1,4 +1,4 @@
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 400px) {
     #index-banner-topo{
         background-image: url('https://siapagro.com/img/home_siap_01_mobile.jpg');
     }
@@ -18,7 +18,7 @@
         background-image: url('https://siapagro.com/img/topo02-mobile.png');
     }
     #sobre-banner{
-        background-image: url('https://siapagro.com/img/topo03-mobile.png');
+        background-image: url('https://siapagro.com/img/topo01-mobile.png');
     }
 
 }

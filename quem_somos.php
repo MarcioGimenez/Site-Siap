@@ -101,7 +101,7 @@
                 <div class="container by-txt">
                     <div class="row">
                         <div class="col s4">
-                            <a href=""><img src="https://siapagro.com/img/logo-flavioshu.jpg" class="responsive-img"/></a>
+                            <a href="http://cargocollective.com/flaviovita" target="_blank"><img src="https://siapagro.com/img/logo-flavioshu.jpg" class="responsive-img"/></a>
                         </div>
                         <div class="col s8 right-align">
                             © 2017 - SIAP
