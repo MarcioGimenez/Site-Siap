@@ -11,11 +11,9 @@
         <link href="https://siapagro.com/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="https://siapagro.com/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="https://siapagro.com/css/screen.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-
         <link href="https://siapagro.com/dist/photoswipe.css?v=4.1.1-1.0.4" rel="stylesheet" />
         <link href="https://siapagro.com/dist/default-skin/default-skin.css?v=4.1.1-1.0.4" rel="stylesheet" />
-
-
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
         <script src="https://siapagro.com/dist/photoswipe.min.js?v=4.1.1-1.0.4"></script>
         <script src="https://siapagro.com/dist/photoswipe-ui-default.min.js?v=4.1.1-1.0.4"></script>
     </head>
@@ -380,7 +378,7 @@
                 <div class="container by-txt">
                     <div class="row">
                         <div class="col s4">
-                            <a href="http://cargocollective.com/flaviovita" target="_blank"><img src="https://siapagro.com/img/logo-flavioshu.jpg" class="responsive-img"/></a>
+                            By <a href="http://cargocollective.com/flaviovita" target="_blank"><img src="img/logo-flavioshu.jpg" class="responsive-img" width="30"/></a>
                         </div>
                         <div class="col s8 right-align">
                             © 2017 - SIAP
