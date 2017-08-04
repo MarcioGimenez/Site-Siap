@@ -18,7 +18,7 @@
         <link rel="shortcut icon" type="image/x-icon" href="https://siapagro.com/img/favicon.ico">
         <script src="https://siapagro.com/dist/photoswipe.min.js?v=4.1.1-1.0.4"></script>
         <script src="https://siapagro.com/dist/photoswipe-ui-default.min.js?v=4.1.1-1.0.4"></script>
-        
+
     </head>
     <body>
 
@@ -53,9 +53,19 @@
 
             <div class="txt-header row container">
                 <div class="right-align col s12 m10 l6 offset-l5">
-                    <h1>Contribuição ativa no Agronegócio.</h1>
-                    <p>Antenada as oportunidades na agropecuária, em um país com terras férteis e com clima facilitador para o plantio, a SIAP tem o objetivo de contribuir no crescimento e desenvolvimento desse importante setor da economia, o agronegócio. 
-                    </p>
+                    <div class="txt-home-topo1">
+                        <h1>SIAP. Contribuição ativa no Agronegócio.</h1>
+                        <p>
+                            Antenada as oportunidades na agropecuária, em um país com terras férteis e com clima facilitador para o plantio, a SIAP tem o objetivo de contribuir no crescimento e desenvolvimento desse importante setor da economia, o agronegócio. 
+                        </p>
+                    </div>
+                    <div class="txt-home-topo2">
+                        <h1>SIAP. Uma empresa de oportunidades.</h1>
+                        <p>
+                            A SIAP é uma empresa que visa dar oportunidades ao pequeno e médio produtor, garantindo
+                            uma infraestrutura competente, levando ao retorno financeiro seguro. 
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -63,8 +73,9 @@
         <div class="txt-sobre">
             <div class="row container">
                 <div class="container left-align col s12 m10 l6 offset-l5">
-                    <h2>SIAP. Inovação e resultados para o seu negócio.</h2>
-                    <p>A <b>SIAP</b> é uma empresa de desenvolvimento agrícola focada no Mato Grosso. Especializada em recuperar áreas degradadas e transformar áreas de pecuária em lavouras de soja, milho e algodão. Além de cuidar da regularização fundiária, loteamento de grandes áreas e administração de fazendas em forma de grandes condomínios. </p>
+                    <h2>SIAP. Inovação e resultados para o seu negócio.
+                    </h2>
+                    <p>A SIAP é uma empresa de desenvolvimento agrícola localizada no Mato Grosso. Especializada em recuperar áreas degradadas e transformar áreas de pecuária em lavouras de soja, milho e algodão. Além de cuidar da regularização fundiária, loteamento de grandes áreas e administração de fazendas em forma de grandes condomínios. </p>
                 </div>
             </div>
         </div>
@@ -76,10 +87,9 @@
                 </div>
                 <div class="left-align col s12 m12 l7">
 
-                    <h2>Fazenda Fronteira</h2>
-                    <p>A Fazenda Fronteira está situada no estado do Mato Grosso, único local do mundo que permite a plantação de 2 safras de culturas distintas por ano, utilizando a mesma terra. Uma área localizada há 530 km de Cuiabá e com 47 mil hectares, possui solo fértil e está próxima de três grandes rios, Papagaio, Honorato e Santa Cruz o que beneficia a irrigação e leva à excelente colheita dos produtos. </p>
-                    <p>A Fazenda comporta um condomínio de loteamentos para expansão de áreas agrícolas com oferecimento de infraestrutura moderna, adequada e completa para que o pequeno e médio produtor possa ter a sua própria terra e apoio total para seu plantio. 
-                    </p>
+                    <h2>FAZENDA FRONTEIRA</h2>
+                    <p>A Fazenda Fronteira está situada no estado do Mato Grosso, único local do mundo que permite a plantação de 2 safras de culturas distintas por ano, utilizando a mesma terra. Uma área localizada há 530 km de Cuiabá e com 47 mil hectares, possui solo fértil e está próxima de três grandes rios: Papagaio, Honorato e Santa Cruz, o que beneficia a irrigação e leva à excelente colheita dos produtos.</p>
+                    <p>A Fazenda comporta um condomínio de loteamentos para expansão de áreas agrícolas oferecendo infraestrutura moderna, adequada e completa para que o pequeno e médio produtor possa ter a sua própria terra e apoio total para seu plantio.</p>
                     <br>
                 </div>
             </div>
@@ -189,7 +199,7 @@
 
                     <div id="mapa-solo-descricao" class="col s12 m5 left-align">
                         <p class="center-align"><b>Terras Agrícolas</b></p>
-                        <p> Total de área com lavoura...........9.028,2 ha</p>
+                        <p> Total de área com lavoura...........19.028,2 ha</p>
                         <p> Área para desmate.....................10.341,7 ha</p>
                         <p> Reserva Legal..............................17,827,6 ha</p>
                         <p> Total.............................................47.197,5 ha</p>
@@ -478,7 +488,32 @@
            $('#zoom-mapa-amarelo-img').elevateZoom({zoomType: "lens", lensShape: "round", lensSize: 500});
            $('#zoom-mapa-laranja-img').elevateZoom({zoomType: "lens", lensShape: "round", lensSize: 500});
            $('#zoom-mapa-vermelho-img').elevateZoom({zoomType: "lens", lensShape: "round", lensSize: 500});*/
+          var troca = false;
+          $('.txt-home-topo2').hide();
+          function trocatxt() {
 
+              if (troca == false) {
+
+                  $('.txt-home-topo1').hide('slow');
+                  $('.txt-home-topo2').show('slow');
+              }
+
+              if (troca == true) {
+                  $('.txt-home-topo2').hide('slow');
+                  $('.txt-home-topo1').show('slow');
+              }
+              if (troca == false) {
+                  troca = true;
+              } else {
+                  troca = false;
+              }
+
+          }
+
+
+          setInterval(function () {
+              trocatxt();
+          }, 10000);
         </script>
 
 

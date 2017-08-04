@@ -55,7 +55,7 @@
                     <div class="col s12 m4">
                         <div class="center grey-text text-darken-1">
                             <i class="material-icons medium">phone</i>
-                            <p class="infos-descricao">PHONE
+                            <p class="infos-descricao">TELEPHONE
                                 <br>+55 11 3508.8999</p>
                             <p class="infos-descricao"></p>
                         </div>
@@ -74,7 +74,7 @@
                         <div class="center grey-text text-darken-1">
                             <i class="material-icons medium">room</i>
                             <p class="infos-descricao">ADDRESS
-                                <br>Rua Joaquim Floriano, Nº 466 10º Andar <br> Ed. Corporate | Itaim Bibi | São Paulo | SP</p>
+                                <br>Joaquim Floriano Street, 466 10º<br> Corporate Building | Itaim Bibi | São Paulo | SP</p>
                             <p class="infos-descricao"></p>
                         </div>
                         <br><br>
@@ -85,7 +85,7 @@
         </div> 
         <div id="contato-msg">
             <div class="container center-align">
-                <h2 class="left verde-siap-escuro-text">Sens Mensage</h2>
+                <h2 class="left verde-siap-escuro-text">Send Mensage</h2>
                 <div class="row">
                     <form class="col s12" action="https://siapagro.com/env-contato.php" method="post">
                         <div class="row">
@@ -101,12 +101,12 @@
                         <div class="row">
                             <div class="input-field col s12">
                                 <textarea id="msg" name="msg" class="materialize-textarea"></textarea>
-                                <label for="msg" data-error="wrong" data-success="right">Mensage</label>
+                                <label for="msg" data-error="wrong" data-success="right">Comment</label>
                             </div>
                         </div>
                         <div class="row">
-                            <button class="btn waves-effect waves-light right verde-siap-escuro" type="submit" name="action">Enviar
-                                <i class="material-icons right">send</i>
+                            <button class="btn waves-effect waves-light right verde-siap-escuro" type="submit" name="action">Send
+                                <!--<i class="material-icons right"></i>-->
                             </button>
                         </div>
                     </form>

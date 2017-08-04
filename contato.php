@@ -105,7 +105,7 @@
                         </div>
                         <div class="row">
                             <button class="btn waves-effect waves-light right verde-siap-escuro" type="submit" name="action">Enviar
-                                <i class="material-icons right">send</i>
+                                <!--<i class="material-icons right">send</i>-->
                             </button>
                         </div>
                     </form>

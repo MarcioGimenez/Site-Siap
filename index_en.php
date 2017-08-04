@@ -52,8 +52,18 @@
 
             <div class="txt-header row container">
                 <div class="right-align col s12 m10 l6 offset-l5">
-                    <h1>Active contribution in Agribusiness.</h1>
-                    <p>Once the opportunities in agriculture and livestock, in a country with fertile lands and with a facilitating climate for planting, SIAP has the objective of contributing to the growth and development of this important sector of the economy, agribusiness.</p>
+                    <div class="txt-home-topo1">
+                        <h1>SIAP. Active contribution in agribusiness.</h1>
+                        <p>
+                            With the opportunities in agricultural, in a country with fertile land and great weather climate for planting, SIAP has the objective to contribute to the growth and development of this important economy sector, the agribusiness. 
+                        </p>
+                    </div>
+                    <div class="txt-home-topo2">
+                        <h1>SIAP. A company of opportunities.</h1>
+                        <p>
+                            The SIAP is a company that aims to give opportunities to the small and medium producer, ensuring a qualified infrastructure, leading to a safe financial return. 
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -61,8 +71,9 @@
         <div class="txt-sobre">
             <div class="row container">
                 <div class="container left-align col s12 m10 l6 offset-l5">
-                    <h2>SIAP. Innovation and results for your business.</h2>
-                    <p>The <b>SIAP</b> is an agricultural development company focused in Mato Grosso. Specialized in recovering degraded areas and transform livestock areas in crops of soy, corn and cotton. In addition to taking care of land regularization, subdivision of large areas and administration of farms in the form of large condominiums.</p>
+                    <h2>SIAP. Inovation and results for your business. </h2>
+                    <p>SIAP is an agricultural development company located on Mato Grosso. Expert in recovering degraded areas and transforming livestock areas into soybean, corn and cotton plantations. In addition, it takes care of land regularization, subdivision of large areas and farms administration in the form of large condominiums.
+</p>
                 </div>
             </div>
         </div>
@@ -74,10 +85,9 @@
                 </div>
                 <div class="left-align col s12 m12 l7">
 
-                    <h2>Farm Fronteira</h2>
-                    <p>The Fronteira Farm is located in the state of Mato Grosso, the only place in the world that allows the planting of 2 crops of different crops per year, using the same land. An area located 530 km from Cuiabá and with 47 thousand hectares, has fertile soil and is close to three major rivers, Papagaio, Honorato and Santa Cruz which benefits the irrigation and leads to the excellent harvest of the products. </p>
-                    <p>The Farm includes a condominium of lots for expansion of agricultural areas with the provision of modern, adequate and complete infrastructure so that the small and medium producers can have their own land and full support for their planting. 
-                    </p>
+                    <h2>FRONTEIRA FARM</h2>
+                    <p>The Fronteira Farm is located in the state of Mato Grosso, the only place in the world that allows the plantation of 2 different crops for year, using the same land. An area located about 530 km from the Cuiabá/MT and with 47 thousand hectares, has fertile soil and it is next to three big rivers: Papagaio, Honorato and Santa Cruz, which benefits the irrigation and takes to excellent harvest of products. </p>
+                    <p>The Farm bear an allotment condominium for agricultural areas expansion it and offers modern, proper and complete infrastructure for that the small and medium farmers may have their own land and total support for their planting.</p>
                     <br>
                 </div>
             </div>
@@ -111,33 +121,33 @@
                 <nav class="transparent menu-mapas " role="navigation">
                     <div class="nav-wrapper container centralizar-filho">
                         <ul>
-                            <li class="link-mapas"><a href="#" class="mapas-show" rel="localizacao">LOCALIZACAO</a></li>
-                            <li class="link-mapas"><a href="#" class="mapas-show" rel="solo">SOLO</a></li>
-                            <li class="link-mapas"><a href="#" class="mapas-show" rel="hidro">HIDROGRAFIA</a></li>
-                            <li class="link-mapas"><a href="#" class="mapas-show" rel="galeria">GALERIA</a></li>
+                            <li class="link-mapas"><a href="#" class="mapas-show" rel="localizacao">LOCATION</a></li>
+                            <li class="link-mapas"><a href="#" class="mapas-show" rel="solo">SOIL</a></li>
+                            <li class="link-mapas"><a href="#" class="mapas-show" rel="hidro">HYDROGRAPHY</a></li>
+                            <li class="link-mapas"><a href="#" class="mapas-show" rel="galeria">PHOTO GALLERY</a></li>
                         </ul>
 
                     </div>
                 </nav>
 
                 <div id="mapa-solo" class="row div-mapas">
-                    <p><h3 class="solo_descricao">Solo/Argila</h3></p>
+                    <p><h3 class="solo_descricao">Soil/Clay</h3></p>
                     <div id="texturas-solo">
                         <div id="textura-azul" class="col s3 center-align">
                             <img src="https://siapagro.com/img/azul.png" class="show-img-textura hoverable" rel="azul"/>
-                            <p>Textura abaixo de 15% <br>6,339.9 ha </p>
+                            <p>Texture above 15% <br>6,339.9 ha </p>
                         </div>
                         <div id="textura-laranja" class="col s3">
                             <img src="https://siapagro.com/img/laranja.png" class="show-img-textura hoverable" rel="laranja"/>
-                            <p>Textura entre 20 e 30% <br>1,813.8 ha </p>
+                            <p>Texture between 20 and 30% <br>1,813.8 ha </p>
                         </div>
                         <div id="textura-amarelo" class="col s3">
                             <img src="https://siapagro.com/img/amarelo.png" class="show-img-textura hoverable" rel="amarelo"/>
-                            <p>Textura entre 15 e 20% <br>4,896.6 ha </p>
+                            <p>Texture between 15 and 20% <br>4,896.6 ha </p>
                         </div>
                         <div id="textura-vermelho" class="col s3">
                             <img src="https://siapagro.com/img/vermelho.png" class="show-img-textura hoverable" rel="vermelho"/>
-                            <p>Textura acima de 30% <br>5,748.3 ha </p>
+                            <p>Texture below 30% <br>5,748.3 ha </p>
                         </div>
                     </div>
 
@@ -162,47 +172,47 @@
                         <div class="row">
                             <div id="textura-azul" class="col s12">
                                 <img src="https://siapagro.com/img/azul.png" class="show-img-textura hoverable" rel="azul" width="25" height="25"/>
-                                Textura abaixo de 15% 6,339.9 ha
+                                Texture above 15% 6,339.9 ha
                             </div>
                         </div>
                         <div class="row">
                             <div id="textura-laranja" class="col s12">
                                 <img src="https://siapagro.com/img/laranja.png" class="show-img-textura hoverable" rel="laranja" width="25" height="25"/>
-                                Textura entre 20 e 30% 1,813.8 ha
+                                Texture between 20 and 30% 1,813.8 ha
                             </div>
                         </div>
                         <div class="row">
                             <div id="textura-amarelo" class="col s12">
                                 <img src="https://siapagro.com/img/amarelo.png" class="show-img-textura hoverable" rel="amarelo" width="25" height="25"/>
-                                Textura entre 15 e 20% 4,896.6 ha
+                                Texture between 15 and 20% 4,896.6 ha
                             </div>
                         </div>
                         <div class="row">
                             <div id="textura-vermelho" class="col s12">
                                 <img src="https://siapagro.com/img/vermelho.png" class="show-img-textura hoverable" rel="vermelho" width="25" height="25"/>
-                                Textura acima de 30% 5,748.3 ha
+                                Texture below 30% 5,748.3 ha
                             </div>
                         </div>
                     </div>
 
                     <div id="mapa-solo-descricao" class="col s12 m5 left-align">
-                        <p class="center-align"><b>Terras Agrícolas</b></p>
-                        <p> Total de área com lavoura...........9.028,2 ha</p>
-                        <p> Área para desmate.....................10.341,7 ha</p>
-                        <p> Reserva Legal..............................17,827,6 ha</p>
+                        <p class="center-align"><b>Agricultural Land</b></p>
+                        <p> Total area with crop................19.028,2 ha</p>
+                        <p> Deforestation area.................10.341,7 ha</p>
+                        <p> Legal Reserve...........................17.827,6 ha</p>
                         <p> Total.............................................47.197,5 ha</p>
                     </div>
                 </div>  
 
                 <div id="mapa-hidro" class="row div-mapas">
-                    <p><h3>Abundance in water with the rivers Parrots, Honorato, Santa Cruz</h3></p>
+                    <p><h3>Abundance in water with the rivers Papagaios, Honorato and Santa Cruz.</h3></p>
                     <div id="mapa-hidro-default" class="col m12 fotos-zoom zoom-hidro">
                         <img src="https://siapagro.com/img/mapa-hidrografico-pequeno.png" class="responsive-img"/>
                     </div>
                 </div>
 
                 <div id="mapa-localizacao" class="row div-mapas">
-                    <p><h3>The area is located in the municipality of Brasnorte in Mato Grosso</h3></p>
+                    <p><h3>The area is located in the Brasnorte town, in Mato Grosso.</h3></p>
                     <div id="mapa-localizacao-default" class="col m12">
                         <img src="https://siapagro.com/img/mapa-localizacao-fazenda.png" class="responsive-img"/>
                     </div>
@@ -477,7 +487,32 @@
            $('#zoom-mapa-amarelo-img').elevateZoom({zoomType: "lens", lensShape: "round", lensSize: 500});
            $('#zoom-mapa-laranja-img').elevateZoom({zoomType: "lens", lensShape: "round", lensSize: 500});
            $('#zoom-mapa-vermelho-img').elevateZoom({zoomType: "lens", lensShape: "round", lensSize: 500});*/
+          var troca = false;
+          $('.txt-home-topo2').hide();
+          function trocatxt() {
 
+              if (troca == false) {
+
+                  $('.txt-home-topo1').hide('slow');
+                  $('.txt-home-topo2').show('slow');
+              }
+
+              if (troca == true) {
+                  $('.txt-home-topo2').hide('slow');
+                  $('.txt-home-topo1').show('slow');
+              }
+              if (troca == false) {
+                  troca = true;
+              } else {
+                  troca = false;
+              }
+
+          }
+
+
+          setInterval(function () {
+              trocatxt();
+          }, 10000);
         </script>
 
 

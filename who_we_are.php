@@ -63,8 +63,13 @@
                         <img src="https://siapagro.com/img/andre.png" width="450" height="300" class="responsive-img"/>
                     </div>
                     <div class="col s12 m6 right">
-                        <p><br>Founding partner and director of SIAP, with more than 15 years of experience in the financial market, being 7 years of international experience in the United States working in banks and investment funds, besides 7 years as CVM manager, was founding partner and manager of Athens Asset Management with more than R $ 600mm AuM.<br>
-                            Also structured the Santa Terezinha Garden plot in Araraquara - SP with 1600 lots and PSV of R $ 100,000,000.<br>He holds a degree in Business Administration from Fundação Armando Alvares Penteado and a postgraduate degree in International Business from BSL - Business School Of London.</p>
+                        <p><br>
+                            Founding partner and director of SIAP, with more than 15 years of experience in the financial market, have worked 7 years of international experience in the EUA, also worked in banks and investment funds, in addition of 7 years as CVM manager. He was founding partner and manager of Atenas Asset Management with more than R$ 600mm AuM.
+                            <br><br>
+                            He also structured the Garden Santa Terezinha allotment, in Araraquara/SP, with 1600 lots and VGV of R$ 100.000.000.
+                            <br><br>
+                            He holds a degree in Business Administration from Fundação Armando Alvares Penteado and a postgraduate degree in International Business from BSL - Business School of London.
+                        </p>
                     </div>                                      
                 </div>
             </div>
@@ -84,10 +89,32 @@
                         <img src="https://siapagro.com/img/alfredo.png" width="450" height="300" class="responsive-img"/>
                     </div>
                     <div class="col s12 m6 left">
-                        <p><br>Founding partner and director of SIAP, with more than 40 years of experience in the financial market, he was a founding partner and structurer of CCTVM, Banco Multiplo and an agricultural entrepreneur with several properties in the states of São Paulo and Mato Grosso. Of 1 year of the Minister of Agriculture.<br>
-                            Partner owner of the Jardim Santa Terezinha allotment in the municipality of Araraquara, with 1600 lots and PSV of R $ 100,000,000. He holds a degree in Economics from the United Metropolitan University - SP.
+                        <p><br>Founding partner and director of SIAP, with more than 40 years of experience in the financial market, as CCTVM and Banco Múltiplo founding partner, structurer and agricultural entrepreneur with several properties in the states of São Paulo and Mato Grosso. For more than he was one year a Minister of Agriculture advisor. Partner owner of the Jardim Santa Terezinha allotment Araraquara town country, with 1600 lots and PSV of R $ 100,000,000.
+                            <br><br>
+                            He holds a degree in Economics from the United Metropolitan University - SP.
                         </p>
                     </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div id="quemsomos-infos">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m6 right">
+                        <h2 class="verde-siap-escuro-text">João Batista de Azevedo Soares</h2>
+                        <hr class="verde-siap-escuro-text">
+                    </div>
+                    <div class="col s12 m6 left">
+                        <img src="https://siapagro.com/img/joao.png" width="450" height="300" class="responsive-img"/>
+                    </div>
+                    <div class="col s12 m6 right">
+                        <p><br>
+                            Minority partner of SIAP with 10% of the capital, with more than 15 years of experience in the financial market. Graduated in business administration from Universidade Paulista. <br><br>
+                        </p>
+                    </div>                                      
                 </div>
             </div>
         </div>
