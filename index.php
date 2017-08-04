@@ -22,7 +22,9 @@
     </head>
     <body>
 
-
+    <div id="seta-up">
+    	<img src="https://siapagro.com/img/seta-up.png">
+    </div>
         <div id="index-banner-topo">
 
 
@@ -514,6 +516,20 @@
           setInterval(function () {
               trocatxt();
           }, 10000);
+
+ 		setInterval(function () {
+              var posobj = $("body").scrollTop();
+              if(posobj < 100){
+              	$("#seta-up").hide();
+              }else{
+              	$("#seta-up").show();
+              }
+          }, 500);
+          $("#seta-up").click(function() {
+  			$("html, body").animate({ scrollTop: 0 }, "slow");
+ 				return false;
+		  });
+
         </script>
 
 
