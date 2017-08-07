@@ -66,6 +66,9 @@
     #home-mapas nav ul li a {
         font-size: 11px;
     }
+    #home-mapas nav ul a {
+        padding: 0 5px;
+    }
     #home-mapas h3 {
         font-size: 14px;
 
