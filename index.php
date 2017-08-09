@@ -23,7 +23,7 @@
     <body>
 
     <div id="seta-up">
-    	<img src="https://siapagro.com/img/seta-up.png">
+    	<img src="https://siapagro.com/img/seta-off.png">
     </div>
         <div id="index-banner-topo">
 
