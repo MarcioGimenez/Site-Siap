@@ -14,6 +14,7 @@
         <link rel="shortcut icon" type="image/x-icon" href="https://siapagro.com/img/favicon.ico">
     </head>
     <body>
+        <div id="seta-up"></div>
         <div id="sobre-banner">
             <nav class="transparent menu-topo" role="navigation">
                 <div class="nav-wrapper container">
@@ -47,8 +48,8 @@
                             <p><h2 class="verde-siap-escuro-text">Quem é SIAP ?</h2></p>
 
                             <p>
-                               Em 2013, nasce a SIAP, uma empresa que tem como objetivo o desenvolvimento agrícola, voltada para o pequeno e médio produtor, que busca a oportunidade de adquirir um espaço próprio, disponibilizando toda a infraestrutura necessária para que o agricultor possa produzir e garantir o progresso de suas safras, contando com os recursos da fazenda viabilizados pela SIAP. 
- 
+                                Em 2013, nasce a SIAP, uma empresa que tem como objetivo o desenvolvimento agrícola, voltada para o pequeno e médio produtor, que busca a oportunidade de adquirir um espaço próprio, disponibilizando toda a infraestrutura necessária para que o agricultor possa produzir e garantir o progresso de suas safras, contando com os recursos da fazenda viabilizados pela SIAP. 
+
                                 <br> <br>
                                 Como uma empresa sempre antenada as mudanças no cenário agropecuário no Brasil e no mundo, a SIAP viu a oportunidade no país que se tornou um importante produtor e comerciante de soja e milho e investiu na criação de condomínios de loteamento para produção agrícola. Com isso iniciou o projeto da Fazenda Fronteira, situada no estado do Mato Grosso, com terras agrícolas de alto potencial produtivo, com 47 mil hectares, onde atualmente 20 mil estão prontos para produção.
                                 <br>  <br>
@@ -61,6 +62,7 @@
                 </div>
             </div>
         </div>
+        <br><br><br><br><br><br><br><br><br>
         <footer class="page-footer white">
             <div class="footer-copyright white">
                 <div class="container by-txt">
@@ -88,6 +90,19 @@
               $('li').mouseout(function () {
                   $(this).removeClass('arrow_box');
               });
+          });
+
+          setInterval(function () {
+              var posobj = $("body").scrollTop();
+              if (posobj < 100) {
+                  $("#seta-up").hide();
+              } else {
+                  $("#seta-up").show();
+              }
+          }, 500);
+          $("#seta-up").click(function () {
+              $("html, body").animate({scrollTop: 0}, "slow");
+              return false;
           });
         </script>
     </body>

@@ -22,9 +22,7 @@
     </head>
     <body>
 
-    <div id="seta-up">
-    	<img src="https://siapagro.com/img/seta-off.png">
-    </div>
+    <div id="seta-up"></div>
         <div id="index-banner-topo">
 
 
@@ -496,13 +494,13 @@
 
               if (troca == false) {
 
-                  $('.txt-home-topo1').hide('slow');
-                  $('.txt-home-topo2').show('slow');
+                  $('.txt-home-topo1').hide();
+                  $('.txt-home-topo2').show();
               }
 
               if (troca == true) {
-                  $('.txt-home-topo2').hide('slow');
-                  $('.txt-home-topo1').show('slow');
+                  $('.txt-home-topo2').hide();
+                  $('.txt-home-topo1').show();
               }
               if (troca == false) {
                   troca = true;

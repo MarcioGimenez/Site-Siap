@@ -14,6 +14,7 @@
         <link rel="shortcut icon" type="image/x-icon" href="https://siapagro.com/img/favicon.ico">
     </head>
     <body>
+        <div id="seta-up"></div>
         <div id="quem-somos-banner">
             <nav class="transparent menu-topo" role="navigation">
                 <div class="nav-wrapper container">
@@ -148,6 +149,18 @@
               $('li').mouseout(function () {
                   $(this).removeClass('arrow_box');
               });
+          });
+          setInterval(function () {
+              var posobj = $("body").scrollTop();
+              if (posobj < 100) {
+                  $("#seta-up").hide();
+              } else {
+                  $("#seta-up").show();
+              }
+          }, 500);
+          $("#seta-up").click(function () {
+              $("html, body").animate({scrollTop: 0}, "slow");
+              return false;
           });
         </script>
     </body>

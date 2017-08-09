@@ -14,6 +14,7 @@
         <link rel="shortcut icon" type="image/x-icon" href="https://siapagro.com/img/favicon.ico">
     </head>
     <body>
+        <div id="seta-up"></div>
         <div id="quem-somos-banner">
             <nav class="transparent menu-topo" role="navigation">
                 <div class="nav-wrapper container">
@@ -93,7 +94,7 @@
                             Sócio fundador e diretor da SIAP, com mais 40 anos de experiência no mercado financeiro, sendo sócio fundador e estruturador da CCTVM, Banco Múltiplo e empresário agropecuário com diversas propriedades nos estados de São Paulo e Mato Grosso, foi também assessor especial por mais de um ano do ministro da agricultura. Sócio proprietário do loteamento Jardim Santa Terezinha no município de Araraquara, com 1600 lotes e VGV de R$ 100.000.000.
                             <br><br>
                             Possui graduação em Economia pela Faculdade Metropolitanas Unidas – SP.
-                            
+
                         </p>
                     </div>
                 </div>
@@ -150,6 +151,18 @@
               $('li').mouseout(function () {
                   $(this).removeClass('arrow_box');
               });
+          });
+          setInterval(function () {
+              var posobj = $("body").scrollTop();
+              if (posobj < 100) {
+                  $("#seta-up").hide();
+              } else {
+                  $("#seta-up").show();
+              }
+          }, 500);
+          $("#seta-up").click(function () {
+              $("html, body").animate({scrollTop: 0}, "slow");
+              return false;
           });
         </script>
     </body>

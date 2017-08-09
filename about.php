@@ -14,6 +14,7 @@
         <link rel="shortcut icon" type="image/x-icon" href="https://siapagro.com/img/favicon.ico">
     </head>
     <body>
+        <div id="seta-up"></div>
         <div id="sobre-banner">
             <nav class="transparent menu-topo" role="navigation">
                 <div class="nav-wrapper container">
@@ -47,7 +48,7 @@
                             <p><h2 class="verde-siap-escuro-text">WHO IS SIAP?</h2></p>
 
                             <p>
-                               In 2013, SIAP was born, a company that has the agricultural development as it goal, made for a small and medium farmer, who seeks the opportunity to acquire a specific space, making all the necessary structure available to the farmers this they can produce and ensure the progress their crops, counting with farm’s resources, made possible by SIAP.
+                                In 2013, SIAP was born, a company that has the agricultural development as it goal, made for a small and medium farmer, who seeks the opportunity to acquire a specific space, making all the necessary structure available to the farmers this they can produce and ensure the progress their crops, counting with farm’s resources, made possible by SIAP.
                                 <br><br>As a company in synch with Brasil’s agribusiness and worldwide scenary changes SIAP saw the opportunity in country that became in an important producer and trader of soybean and corn and invested in the creation of allotment condominiums for agricultural production. This way started the project Fronteira Farm, in state of Mato Grosso, with agricultural land of high productive potential, with 47 thousand hectares, where there are currently 20 thousand ready for production.
                                  <br><br>Our mission is to ensure the agricultural development, providing the best structure and creating facilitators that ensure the production, success becoming a link between the productive chain and the market, ensuring the capital return both for producers and investors, valuing the man in the countryside.
                             </p>
@@ -56,6 +57,7 @@
                 </div>
             </div>
         </div>
+        <br><br><br><br><br><br><br><br><br>
         <footer class="page-footer white">
             <div class="footer-copyright white">
                 <div class="container by-txt">
@@ -83,6 +85,18 @@
               $('li').mouseout(function () {
                   $(this).removeClass('arrow_box');
               });
+          });
+          setInterval(function () {
+              var posobj = $("body").scrollTop();
+              if (posobj < 100) {
+                  $("#seta-up").hide();
+              } else {
+                  $("#seta-up").show();
+              }
+          }, 500);
+          $("#seta-up").click(function () {
+              $("html, body").animate({scrollTop: 0}, "slow");
+              return false;
           });
         </script>
     </body>

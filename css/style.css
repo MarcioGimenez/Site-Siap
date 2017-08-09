@@ -158,7 +158,7 @@ nav ul a {
     font-size: 17px;
 }
 p {
-    line-height: 2rem;
+    line-height: 21px;
 }
 
 .button-collapse {
@@ -374,10 +374,17 @@ footer.page-footer {
     position: fixed;
     top: 100%;
     left: 50%;
-    width: 45px;
-    height: 45px;
+    width: 44px;
+    height: 42px;
     margin-left: -20px;
     margin-top: -50px;
     cursor: pointer;
     display: none;
+    background-image: url('https://siapagro.com/img/seta-off.png');
+}
+#seta-up:hover{
+    background-image: url('https://siapagro.com/img/seta-on.png');
+} 
+.txt-home-topo2{
+ display: none;   
 }
